@@ -1,5 +1,7 @@
 # Blockly-HTML
-Blockly blocks and generators for HTML generation and a demo with live preview
+Blockly blocks and generators for HTML generation and a demo with live preview.
+
+The demo can be tested here: http://htmlbausteine.zgtm.de/
 
 <img src="example.png" width="500" alt="Screenshot" />
 
@@ -20,4 +22,7 @@ The files `library_html.xml` and `library_html_german.xml` are block libraries t
  * Allow for block export/import and HTML export in the demo page
  * Many more …
 
+## Further ideas
+ * Maybe support generating other markup languages (Markdown, LaTeX)
+ * Add script-tag and allow for standard Blockly blocks in there
 
