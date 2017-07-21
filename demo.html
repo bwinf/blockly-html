@@ -1,0 +1,192 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <meta charset="utf-8">
+    <style>
+       body { display:flex; justify-content: space-around; margin:0;}
+       div.l1, div.l2 {flex-grow: 1; }
+       #sourcecode {border: 1px solid gray;}
+       div.l1 { display:flex; justify-content: space-around; flex-direction: column; font-family: sans-serif; }
+       #titleArea {width: 100%; height: 20px; background-color: darkblue; }
+       #website, #sourcecode, #title {position:absolute;}
+       #sourcecode {overflow: scroll; margin:0px;}
+       #titleArea {color:white; text-align:center;}
+    </style>
+    <script src="blockly_compressed.js"></script>
+    <script src="html_blocks.js"></script>
+    <script src="html_generators.js"></script>
+  </head>
+  <body>
+    <div class="l1" id="blocklyArea"></div>
+    <div class="l1">
+      <div class="" id="titleArea"><div id="title">untitled web page</div></div>
+      <div class="l2" id="websiteArea"><iframe id="website"></iframe></div>
+      <div class="l2" id="sourcecodeArea"><pre id="sourcecode">sum contnent</pre></div>
+    </div>
+
+    <xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
+      <block type="html">
+        <statement name="content">
+          <block type="head">
+            <statement name="content">
+              <block type="title">
+                <statement name="content">
+                  <block type="plaintext">
+                    <field name="content"></field>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <next>
+              <block type="body"></block>
+            </next>
+          </block>
+        </statement>
+      </block>
+      <block type="plaintext">
+        <field name="content"></field>
+      </block>
+      <block type="headline">
+        <field name="NAME">h1</field>
+        <statement name="content">
+          <block type="plaintext">
+            <field name="content"></field>
+          </block>
+        </statement>
+      </block>
+      <block type="paragraph">
+        <statement name="content">
+          <block type="plaintext">
+            <field name="content"></field>
+          </block>
+        </statement>
+      </block>
+      <block type="link">
+        <field name="NAME">target</field>
+        <statement name="content">
+          <block type="plaintext">
+            <field name="content"></field>
+          </block>
+        </statement>
+      </block>
+      <block type="image">
+        <field name="IMAGE">URL</field>
+        <field name="ALT">alternative text</field>
+      </block>
+      <block type="emphasise"></block>
+      <block type="strong"></block>
+      <block type="span">
+        <value name="NAME">
+          <block type="style"></block>
+        </value>
+      </block>
+      <block type="color">
+        <field name="NAME">#ff0000</field>
+      </block>
+      <block type="bgcolour">
+        <field name="NAME">#ff0000</field>
+      </block>
+      <block type="genericstyle">
+        <field name="property">property</field>
+        <field name="value">value</field>
+      </block>
+      <block type="division"></block>
+      <block type="generictag">
+        <field name="NAME">tag</field>
+      </block>
+      <block type="more_attributes"></block>
+      <block type="genericattribute">
+        <field name="attribute">attribute</field>
+        <field name="value">value</field>
+      </block>
+      <block type="linebreak"></block>
+      <block type="horizontalbreak"></block>
+      <block type="unorderedlist"></block>
+      <block type="orderedlist"></block>
+      <block type="listelement"></block>
+    </xml>
+
+    <xml xmlns="http://www.w3.org/1999/xhtml" id="workspaceBlocks" style="display:none">
+      <block type="html" id="6G?6}yaqY(-6~Y[,$2~:" x="138" y="138">
+        <statement name="content">
+          <block type="head" id="[}zVCE[Qa@J4NR7?32P}">
+            <statement name="content">
+              <block type="title" id="*=s3{`ah]iS.Vi(;cwz?">
+                <statement name="content">
+                  <block type="plaintext" id="5{h})K7JIZA6eE6}*Jwi">
+                    <field name="content"></field>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <next>
+              <block type="body" id="_C0vQsxiA!-aT9#%7ekt"></block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </xml>
+
+    <script>
+      var toolbox = document.getElementById("toolbox");
+      var blocklyArea = document.getElementById('blocklyArea');
+
+      var options = {
+        toolbox : toolbox,
+        collapse : true,
+        comments : false,
+        disable : false,
+        maxBlocks : Infinity,
+        trashcan : true,
+        horizontalLayout : false,
+        toolboxPosition : 'start',
+        css : true,
+        media : 'https://blockly-demo.appspot.com/static/media/',
+        rtl : false,
+        scrollbars : false,
+        sounds : true,
+        oneBasedIndex : true
+      };
+
+      var workspace = Blockly.inject(blocklyArea, options);
+
+      var xml_text = localStorage.getItem('code');
+      if (xml_text) {
+        var xml = Blockly.Xml.textToDom(xml_text);
+        Blockly.Xml.domToWorkspace(xml, workspace);
+      }
+      else {
+        var workspaceBlocks = document.getElementById("workspaceBlocks");
+        Blockly.Xml.domToWorkspace(workspaceBlocks, workspace);
+      }
+
+      Blockly.svgResize(workspace);
+
+      function myUpdateFunction(event) {
+        var code = HtmlGenerator.workspaceToCode(workspace);
+        document.getElementById('sourcecode').innerText = code;
+        document.getElementById('website').src = "data:text/html;charset=utf-8," + encodeURIComponent(code);
+
+        // Save Blocks
+        var xml = Blockly.Xml.workspaceToDom(workspace);
+        var xml_text = Blockly.Xml.domToText(xml);
+        localStorage.setItem('code', xml_text);
+      }
+      workspace.addChangeListener(myUpdateFunction);
+
+      var onresize = function(e) {
+        document.getElementById('website').style.width = document.getElementById('websiteArea').offsetWidth -4 + "px";
+        document.getElementById('website').style.height = document.getElementById('websiteArea').offsetHeight -4  + "px";
+        document.getElementById('sourcecode').style.width = document.getElementById('sourcecodeArea').offsetWidth -4 + "px";
+        document.getElementById('sourcecode').style.height = document.getElementById('sourcecodeArea').offsetHeight -4  + "px";
+        document.getElementById('title').style.width = document.getElementById('titleArea').offsetWidth + "px";
+        document.getElementById('title').style.height = document.getElementById('titleArea').offsetHeight  + "px";
+
+      };
+      window.addEventListener('resize', onresize, false);
+      onresize();
+
+     </script>
+  </body>
+</html>
