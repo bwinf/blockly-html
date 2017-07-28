@@ -10,7 +10,10 @@ The demo can be tested here: http://htmlbausteine.zgtm.de/
 The file `blockly_compressed`, required to run the demo, is not included in this repository, but can be obtained from 
 https://github.com/google/blockly/blob/master/blockly_compressed.js
 
-The demo saves the workspace in the local browser storage. Other export/import capabilities are missing, so far.
+The demo saves the workspace in the local browser storage. 
+Additionally, it supports importing and exporting blocks (Blockly XML) and exporting the HTML document.
+
+A German localisation of the demo can be enabled by loading `de.js` instead of `en.js` in the header of the HTML file.
 
 ## Library files
 
@@ -19,7 +22,6 @@ The files `library_html.xml` and `library_html_german.xml` are block libraries t
 ## TODO
  * Support more HTML tags and attributes
  * Enforce HTML tag-nesting rules via types
- * Allow for block export/import and HTML export in the demo page
  * Many more …
 
 ## Further ideas
