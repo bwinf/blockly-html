@@ -14,7 +14,7 @@
         height:100vh;
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 40px 30px auto 45%;
+        grid-template-rows: 50px 30px auto 45%;
         grid-template-areas:
           "blockly     menubar"
           "blockly     title"
@@ -23,7 +23,7 @@
       }
 
       #blocklyArea {grid-area: blockly;}
-      #menubar {grid-area: menubar;}
+      #menubar {grid-area: menubar; font-family: sans-serif; font-size: 18px; padding: 5px 10px; display: grid; grid-template-columns: auto 36% auto;}
       #title {grid-area: title; width: 100%; background-color: #137; color:white; text-align:center; font-size: 20px; font-family: sans-serif; padding-top: 5px;}
       #websiteFrame    {grid-area: website; border: 5px solid #137;}
       #sourcecode {grid-area: code; border: 5px solid lightgray;overflow: scroll; margin:0px;}
@@ -37,7 +37,11 @@
   <body>
     <div id="container">
       <div id="blocklyArea"></div>
-      <div id="menubar"></div>
+      <div id="menubar">
+        <div>💾 Bausteine speichern: <input type="button" value="Speichern" id="saveButton" /></div>
+        <div>📂 Bausteine öffnen: <input type="file" id="fileButton" style="max-width:200px" /></div>
+        <div>📄 Webseite als HTML exportieren: <input type="button" value="Exportieren" id="exportButton" /></div>
+      </div>
       <div id="title">untitled web page</div>
       <div id="websiteFrame"><iframe id="website"></iframe></div>
       <pre id="sourcecode">sum contnent</pre>
@@ -193,8 +197,36 @@
       }
       workspace.addChangeListener(myUpdateFunction);
 
-      onresize();
+      function saveWorkspaceToDownload() {
+        var xml = Blockly.Xml.workspaceToDom(workspace);
+        var xml_text = Blockly.Xml.domToText(xml);
+        newWindow = window.open("data:application/octet-stream," + encodeURIComponent(xml_text), 'webseite.blockly.xml');
+      }
+      document.getElementById("saveButton").onclick = saveWorkspaceToDownload;
 
+      function saveHtmlToDownload() {
+        var code = HtmlGenerator.workspaceToCode(workspace);
+        newWindow = window.open("data:application/octet-stream," + encodeURIComponent(code), 'webseite.html');
+      }
+      document.getElementById("exportButton").onclick = saveHtmlToDownload;
+
+
+      function loadWorkspaceFromUpload(e) {
+        var file = e.target.files[0];
+        if (!file) {
+          return;
+        }
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          var xml_text = e.target.result;
+          if (xml_text) {
+            var xml = Blockly.Xml.textToDom(xml_text);
+            Blockly.Xml.domToWorkspace(xml, workspace);
+          }
+        };
+        reader.readAsText(file);
+      }
+      document.getElementById('fileButton').addEventListener('change', loadWorkspaceFromUpload, false);
      </script>
   </body>
 </html>
