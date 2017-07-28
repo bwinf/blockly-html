@@ -31,6 +31,7 @@
       #website {width: calc(100% - 5px);height: calc(100% - 5px);}
     </style>
     <script src="blockly_compressed.js"></script>
+    <script src="en.js"></script>
     <script src="html_blocks.js"></script>
     <script src="html_generators.js"></script>
   </head>
@@ -38,9 +39,18 @@
     <div id="container">
       <div id="blocklyArea"></div>
       <div id="menubar">
-        <div>💾 Bausteine speichern: <input type="button" value="Speichern" id="saveButton" /></div>
-        <div>📂 Bausteine öffnen: <input type="file" id="fileButton" style="max-width:200px" /></div>
-        <div>📄 Webseite als HTML exportieren: <input type="button" value="Exportieren" id="exportButton" /></div>
+        <div><span id="saveText">💾 Save blocks:</span> <input type="button" value="Save" id="saveButton" /></div>
+        <div><span id="loadText">📂 Load blocks:</span> <input type="file" id="fileButton" style="max-width:200px" /></div>
+        <div><span id="exportText">📄 Export webpage as HTML:</span> <input type="button" value="Export" id="exportButton" /></div>
+        <script>
+          if (Msg && Msg.buttons) {
+            document.getElementById("saveText").textContent   = Msg.buttons.save.desc;
+            document.getElementById("saveButton").textContent = Msg.buttons.save.button;
+            document.getElementById("loadText").textContent   = Msg.buttons.load.desc;
+            document.getElementById("exportText").value       = Msg.buttons.export.desc;
+            document.getElementById("exportButton").value     = Msg.buttons.export.button;
+          }
+        </script>
       </div>
       <div id="title">untitled web page</div>
       <div id="websiteFrame"><iframe id="website"></iframe></div>
@@ -54,9 +64,7 @@
             <statement name="content">
               <block type="title">
                 <statement name="content">
-                  <block type="plaintext">
-                    <field name="content"></field>
-                  </block>
+                  <block type="plaintext"></block>
                 </statement>
               </block>
             </statement>
@@ -67,35 +75,23 @@
         </statement>
       </block>
       <block type="plaintext">
-        <field name="content"></field>
       </block>
       <block type="headline">
-        <field name="NAME">h1</field>
         <statement name="content">
-          <block type="plaintext">
-            <field name="content"></field>
-          </block>
+          <block type="plaintext"></block>
         </statement>
       </block>
       <block type="paragraph">
         <statement name="content">
-          <block type="plaintext">
-            <field name="content"></field>
-          </block>
+          <block type="plaintext"></block>
         </statement>
       </block>
       <block type="link">
-        <field name="NAME">target</field>
         <statement name="content">
-          <block type="plaintext">
-            <field name="content"></field>
-          </block>
+          <block type="plaintext"></block>
         </statement>
       </block>
-      <block type="image">
-        <field name="IMAGE">URL</field>
-        <field name="ALT">alternative text</field>
-      </block>
+      <block type="image"></block>
       <block type="emphasise"></block>
       <block type="strong"></block>
       <block type="span">
@@ -109,19 +105,11 @@
       <block type="bgcolour">
         <field name="NAME">#ff0000</field>
       </block>
-      <block type="genericstyle">
-        <field name="property">property</field>
-        <field name="value">value</field>
-      </block>
+      <block type="genericstyle"></block>
       <block type="division"></block>
-      <block type="generictag">
-        <field name="NAME">tag</field>
-      </block>
+      <block type="generictag"></block>
       <block type="more_attributes"></block>
-      <block type="genericattribute">
-        <field name="attribute">attribute</field>
-        <field name="value">value</field>
-      </block>
+      <block type="genericattribute"></block>
       <block type="linebreak"></block>
       <block type="horizontalbreak"></block>
       <block type="unorderedlist"></block>
@@ -227,6 +215,7 @@
         reader.readAsText(file);
       }
       document.getElementById('fileButton').addEventListener('change', loadWorkspaceFromUpload, false);
+
      </script>
   </body>
 </html>

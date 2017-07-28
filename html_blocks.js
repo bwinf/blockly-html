@@ -503,6 +503,33 @@ var htmlBlocks =
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 }]
 
+if (Msg && Msg.blocks) {
+  // Update jsons with translations
+  for (var iBlock in htmlBlocks) {
+    var json = htmlBlocks[iBlock];
+    var trs = Msg.blocks[json.type];
+    for (var iTr in trs) {
+      if (typeof(trs[iTr]) == "string") {
+        json[iTr] = trs[iTr];
+      } else if (typeof(trs[iTr]) == "object") {
+        // Mainly for args0 property
+        // Follow two levels, then just replace
+        for (var iTrObj in trs[iTr]) {
+          if (typeof(trs[iTr][iTrObj]) == "object") {
+            for (var index in trs[iTr][iTrObj]) {
+              json[iTr][iTrObj][index] = trs[iTr][iTrObj][index];
+            }
+          }
+          else {
+            console.error("Don't know how to translate that: Msg.blocks." + iTr + "." + iTrObj)
+          }
+        }
+      } else {
+        console.error("Don't know how to translate that: Msg.blocks." + iTr)
+      }
+    }
+  }
+}
 
 for (var iBlock in htmlBlocks) {
   function makeBlock(json) {
