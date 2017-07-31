@@ -12,7 +12,10 @@
       #container {
         width:100vw;
         height:100vh;
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: 50% 50%;
+        -ms-grid-rows: 50px 30px 45% 45%;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50px 30px auto 45%;
         grid-template-areas:
@@ -22,13 +25,20 @@
           "blockly     code";
       }
 
-      #blocklyArea {grid-area: blockly;}
-      #menubar {grid-area: menubar; font-family: sans-serif; font-size: 18px; padding: 5px 10px; display: grid; grid-template-columns: auto 36% auto;}
-      #title {grid-area: title; width: 100%; background-color: #137; color:white; text-align:center; font-size: 20px; font-family: sans-serif; padding-top: 5px;}
-      #websiteFrame    {grid-area: website; border: 5px solid #137;}
-      #sourcecode {grid-area: code; border: 5px solid lightgray;overflow: scroll; margin:0px;}
+      #blocklyArea  {grid-area: blockly; -ms-grid-row:1;-ms-grid-column:1; -ms-grid-row-span:4;}
+      #menubar      {grid-area: menubar; font-family: sans-serif; font-size: 18px; padding: 5px 10px; display: -ms-grid; display: grid; grid-template-columns: auto 36% auto; -ms-grid-row:1;-ms-grid-column:2; -ms-grid-columns: 32% 36% 32%; }
+      #title        {grid-area: title; width: 100%; background-color: #137; color:white; text-align:center; font-size: 20px; font-family: sans-serif; padding-top: 5px; -ms-grid-row:2;-ms-grid-column:2;}
+      #websiteFrame {grid-area: website; border: 5px solid #137;  -ms-grid-row:3;-ms-grid-column:2;}
+      #sourcecode   {grid-area: code; border: 5px solid lightgray;overflow: scroll; margin:0px;  -ms-grid-row:4;-ms-grid-column:2;}
 
       #website {width: calc(100% - 5px);height: calc(100% - 5px);}
+
+
+      /* Edge hack, God I hate this browser */
+      _:-ms-lang(x),
+      #container {
+        width:98vw;
+      }
     </style>
     <script src="blockly_compressed.js"></script>
     <script src="en.js"></script>
