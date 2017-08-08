@@ -191,3 +191,124 @@ HtmlGenerator['listelement'] = function(block) {
   var code = '<li>' + statements_content + '</li>\n';
   return code;
 };
+
+HtmlGenerator['inserted'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['deleted'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['super'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['sub'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['code'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['quote'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['blockquote'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['sample'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['keyboard'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['variable'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['form'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['table'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['tablerow'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['tablecell'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['input_text'] = function(block) {
+  var text_default = block.getFieldValue('default');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['button'] = function(block) {
+  var statements_name = HtmlGenerator.statementToCode(block, 'NAME');
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};
+
+HtmlGenerator['input'] = function(block) {
+  var dropdown_type = block.getFieldValue('type');
+  var text_value = block.getFieldValue('value');
+  var value_text = HtmlGenerator.valueToCode(block, 'text', HtmlGenerator.ORDER_ATOMIC);
+  // TODO: Assemble JavaScript into code variable.
+  var code = '...;\n';
+  return code;
+};

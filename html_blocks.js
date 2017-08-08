@@ -501,7 +501,408 @@ var htmlBlocks =
   "colour": 90,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-}]
+},
+{
+  "type": "inserted",
+  "message0": "inserted %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "deleted",
+  "message0": "deleted %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "super",
+  "message0": "superscript %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "sub",
+  "message0": "subscript %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "code",
+  "message0": "code %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "quote",
+  "message0": "quote %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "blockquote",
+  "message0": "blockquote %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "sample",
+  "message0": "sample output %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "keyboard",
+  "message0": "keyboard input %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "variable",
+  "message0": "variable %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "form",
+  "message0": "form %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "table",
+  "message0": "table %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "tablerow",
+  "message0": "row %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "tablecell",
+  "message0": "entry %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "input_text",
+  "message0": "text input %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "default",
+    "text": ""
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "button",
+  "message0": "button %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "NAME"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "input",
+  "message0": "%1 input %2 %3",
+  "args0": [
+  {
+    "type": "field_dropdown",
+    "name": "type",
+    "options": [
+    [
+    "text",
+    "text"
+    ],
+    [
+    "email",
+    "email"
+    ],
+    [
+    "number",
+    "number"
+    ],
+    [
+    "password",
+    "password"
+    ],
+    [
+    "checkbox",
+    "checkbox"
+    ],
+    [
+    "radiobutton",
+    "radio"
+    ],
+    [
+    "button",
+    "button"
+    ],
+    [
+    "colour",
+    "color"
+    ],
+    [
+    "date",
+    "date"
+    ],
+    [
+    "local time",
+    "datetime-local"
+    ],
+    [
+    "file",
+    "file"
+    ],
+    [
+    "hidden",
+    "hidden"
+    ],
+    [
+    "image",
+    "image"
+    ],
+    [
+    "month",
+    "month"
+    ],
+    [
+    "range",
+    "range"
+    ],
+    [
+    "reset",
+    "reset"
+    ],
+    [
+    "search",
+    "search"
+    ],
+    [
+    "submit",
+    "submit"
+    ],
+    [
+    "telephone number",
+    "tel"
+    ],
+    [
+    "time",
+    "time"
+    ],
+    [
+    "url",
+    "url"
+    ],
+    [
+    "week",
+    "week"
+    ]
+    ]
+  },
+  {
+    "type": "field_input",
+    "name": "value",
+    "text": ""
+  },
+  {
+    "type": "input_value",
+    "name": "text"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+}
+]
 
 if (Msg && Msg.blocks) {
   // Update jsons with translations
