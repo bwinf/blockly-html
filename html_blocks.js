@@ -25,7 +25,7 @@ var htmlBlocks =
     }
   ],
   "colour": 0,
-  "tooltip": "",
+  "tooltip": "Base of a HTML document",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
 {
@@ -41,7 +41,7 @@ var htmlBlocks =
     }
   ],
   "colour": 0,
-  "tooltip": "",
+  "tooltip": "Meta information part of HTML document",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
 {
@@ -59,8 +59,8 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 0,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "tooltip": "Content part of HTML document",
+  "helpUrl": "http://www.w3schools.com/tags/tag_body.asp"
 },
 {
   "type": "head",
@@ -77,8 +77,8 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 0,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "tooltip": "Headline",
+  "helpUrl": "http://www.w3schools.com/html/html_heading.asp"
 },
 {
   "type": "title",
@@ -92,8 +92,8 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 0,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "tooltip": "Title of the HTML document",
+  "helpUrl": "http://www.w3schools.com/tags/tag_title.asp"
 },
 {
   "type": "paragraph",
@@ -107,8 +107,8 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 90,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "tooltip": "Paragraph of text",
+  "helpUrl": "http://www.w3schools.com/tags/tag_p.asp"
 },
 {
   "type": "plaintext",
@@ -123,8 +123,8 @@ var htmlBlocks =
   "previousStatement": null,
   "nextStatement": null,
   "colour": 330,
-  "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "tooltip": "Text to be displayed",
+  "helpUrl": "http://www.w3schools.com/html/html_charset.asp"
 },
 {
   "type": "division",
@@ -143,7 +143,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_div.asp"
 },
 {
   "type": "style",
@@ -238,7 +238,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/html/html_elements.asp"
 },
 {
   "type": "more_attributes",
@@ -304,7 +304,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_a.asp"
 },
 {
   "type": "span",
@@ -323,7 +323,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_span.asp"
 },
 {
   "type": "image",
@@ -344,7 +344,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_img.asp"
 },
 {
   "type": "emphasise",
@@ -362,7 +362,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_em.asp"
 },
 {
   "type": "strong",
@@ -380,7 +380,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_strong.asp"
 },
 {
   "type": "headline",
@@ -428,7 +428,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/html/html_headings.asp"
 },
 {
   "type": "linebreak",
@@ -437,7 +437,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 330,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_br.asp"
 },
 {
   "type": "horizontalbreak",
@@ -446,7 +446,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 330,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_hr.asp"
 },
 {
   "type": "unorderedlist",
@@ -464,7 +464,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 330,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_ul.asp"
 },
 {
   "type": "orderedlist",
@@ -482,7 +482,7 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 330,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+  "helpUrl": "http://www.w3schools.com/tags/tag_ol.asp"
 },
 {
   "type": "listelement",
@@ -500,8 +500,409 @@ var htmlBlocks =
   "nextStatement": null,
   "colour": 90,
   "tooltip": "",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-}]
+  "helpUrl": "http://www.w3schools.com/tags/tag_li.asp"
+},
+{
+  "type": "inserted",
+  "message0": "inserted %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_ins.asp"
+},
+{
+  "type": "deleted",
+  "message0": "deleted %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_del.asp"
+},
+{
+  "type": "super",
+  "message0": "superscript %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_sup.asp"
+},
+{
+  "type": "sub",
+  "message0": "subscript %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_sub.asp"
+},
+{
+  "type": "code",
+  "message0": "code %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_code.asp"
+},
+{
+  "type": "quote",
+  "message0": "quote %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_q.asp"
+},
+{
+  "type": "blockquote",
+  "message0": "blockquote %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_blockquote.asp"
+},
+{
+  "type": "sample",
+  "message0": "sample output %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_samp.asp"
+},
+{
+  "type": "keyboard",
+  "message0": "keyboard input %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_kbd.asp"
+},
+{
+  "type": "variable",
+  "message0": "variable %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_var.asp"
+},
+{
+  "type": "form",
+  "message0": "form %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_form.asp"
+},
+{
+  "type": "table",
+  "message0": "table %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_table.asp"
+},
+{
+  "type": "tablerow",
+  "message0": "row %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_tr.asp"
+},
+{
+  "type": "tablecell",
+  "message0": "entry %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "content"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 180,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_td.asp"
+},
+{
+  "type": "input_text",
+  "message0": "text input %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "default",
+    "text": ""
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_input.asp"
+},
+{
+  "type": "button",
+  "message0": "button %1 %2",
+  "args0": [
+  {
+    "type": "input_dummy"
+  },
+  {
+    "type": "input_statement",
+    "name": "NAME"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_button.asp"
+},
+{
+  "type": "input",
+  "message0": "%1 input %2 %3",
+  "args0": [
+  {
+    "type": "field_dropdown",
+    "name": "type",
+    "options": [
+    [
+    "text",
+    "text"
+    ],
+    [
+    "email",
+    "email"
+    ],
+    [
+    "number",
+    "number"
+    ],
+    [
+    "password",
+    "password"
+    ],
+    [
+    "checkbox",
+    "checkbox"
+    ],
+    [
+    "radiobutton",
+    "radio"
+    ],
+    [
+    "button",
+    "button"
+    ],
+    [
+    "colour",
+    "color"
+    ],
+    [
+    "date",
+    "date"
+    ],
+    [
+    "local time",
+    "datetime-local"
+    ],
+    [
+    "file",
+    "file"
+    ],
+    [
+    "hidden",
+    "hidden"
+    ],
+    [
+    "image",
+    "image"
+    ],
+    [
+    "month",
+    "month"
+    ],
+    [
+    "range",
+    "range"
+    ],
+    [
+    "reset",
+    "reset"
+    ],
+    [
+    "search",
+    "search"
+    ],
+    [
+    "submit",
+    "submit"
+    ],
+    [
+    "telephone number",
+    "tel"
+    ],
+    [
+    "time",
+    "time"
+    ],
+    [
+    "url",
+    "url"
+    ],
+    [
+    "week",
+    "week"
+    ]
+    ]
+  },
+  {
+    "type": "field_input",
+    "name": "value",
+    "text": ""
+  },
+  {
+    "type": "input_value",
+    "name": "text"
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 90,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_input.asp"
+}
+]
 
 if (Msg && Msg.blocks) {
   // Update jsons with translations

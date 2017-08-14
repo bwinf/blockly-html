@@ -40,10 +40,12 @@
         width:98vw;
       }
     </style>
-    <script src="blockly_compressed.js"></script>
+    <script src="blockly/blockly_compressed.js"></script>
+    <script src="blockly/msg/js/en.js"></script>
+
     <script src="en.js"></script>
-    <script src="html_blocks.js"></script>
     <script src="html_generators.js"></script>
+    <script src="html_blocks.js"></script>
   </head>
   <body>
     <div id="container">
@@ -155,16 +157,17 @@
       var options = {
         toolbox : toolbox,
         collapse : true,
-        comments : false,
-        disable : false,
+//        comments : false,
+//        disable : false,
         maxBlocks : Infinity,
         trashcan : true,
-        horizontalLayout : false,
-        toolboxPosition : 'start',
+//        horizontalLayout : false,
+          //        toolboxPosition : 'start',
+        tooltips: true,
         css : true,
         media : 'https://blockly-demo.appspot.com/static/media/',
         rtl : false,
-        scrollbars : false,
+        scrollbars : true,
         sounds : true,
         oneBasedIndex : true
       };

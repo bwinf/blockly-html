@@ -2,44 +2,27 @@ Msg = {
   blocks: {
     "baseframe": {
       "message0": "document %1 header %2 %3 content %4 %5",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "html": {
       "message0": "document %1 %2",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "body": {
       "message0": "content %1 %2",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "head": {
       "message0": "header %1 %2",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "title": {
       "message0": "title %1",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "paragraph": {
       "message0": "paragraph %1",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "plaintext": {
       "message0": "text %1",
-
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "division": {
       "message0": "division %1 %2",
-      "tooltip": "",
-      "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
     "style": {
       "message0": "style =  %1 %2",
