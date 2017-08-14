@@ -106,6 +106,16 @@
       <block type="image"></block>
       <block type="emphasise"></block>
       <block type="strong"></block>
+      <block type="deleted"></block>
+      <block type="inserted"></block>
+      <block type="super"></block>
+      <block type="sub"></block>
+      <block type="code"></block>
+      <block type="quote"></block>
+      <block type="blockquote"></block>
+      <block type="sample"></block>
+      <block type="keyboard"></block>
+      <block type="variable"></block>
       <block type="span">
         <value name="NAME">
           <block type="style"></block>
@@ -127,6 +137,41 @@
       <block type="unorderedlist"></block>
       <block type="orderedlist"></block>
       <block type="listelement"></block>
+      <block type="table">
+        <statement name="content">
+          <block type="tablerow">
+            <statement name="content">
+              <block type="tablecell">
+                <next>
+                  <block type="tablecell"></block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="tablerow">
+                <statement name="content">
+                  <block type="tablecell">
+                    <next>
+                      <block type="tablecell"></block>
+                    </next>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+      <block type="tablerow"></block>
+      <block type="tablecell"></block>
+      <block type="form"></block>
+      <block type="input_text">
+        <field name="default"></field>
+      </block>
+      <block type="button"></block>
+      <block type="input">
+        <field name="type">text</field>
+        <field name="value"></field>
+      </block>
     </xml>
 
     <xml xmlns="http://www.w3.org/1999/xhtml" id="workspaceBlocks" style="display:none">
