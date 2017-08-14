@@ -13,6 +13,11 @@ HtmlGenerator.scrub_ = function(block, code) {
 };
 
 
+function removeIndentAndTrailingNewline() {
+   
+}
+
+
 HtmlGenerator['baseframe'] = function(block) {
   var statements_head = HtmlGenerator.statementToCode(block, 'head');
   var statements_body = HtmlGenerator.statementToCode(block, 'body');
@@ -52,26 +57,26 @@ HtmlGenerator['title'] = function(block) {
   else
     document.getElementById('title').innerText = "untitled web page";
 
-  var code = '<title>' + statements_content + '</title>\n';
+  var code = '<title>' + statements_content.trim() + '</title>\n';
   return code;
 };
 
 HtmlGenerator['paragraph'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<p>' + statements_content + '</p>\n';
+  var code = '<p>\n' + statements_content + '</p>\n';
   return code;
 };
 
 HtmlGenerator['plaintext'] = function(block) {
   var text_content = block.getFieldValue('content');
-  var code = text_content;
+  var code = text_content + '\n';
   return code;
 };
 
 HtmlGenerator['division'] = function(block) {
   var value_name = HtmlGenerator.valueToCode(block, 'NAME', HtmlGenerator.ORDER_ATOMIC);
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<div' + value_name + '>' + statements_content + '</div>\n';
+  var code = '<div' + value_name + '>\n' + statements_content + '</div>\n';
   return code;
 };
 
@@ -126,7 +131,7 @@ HtmlGenerator['genericattribute'] = function(block) {
 HtmlGenerator['link'] = function(block) {
   var text_name = block.getFieldValue('NAME');
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<a href="' + text_name + '">' + statements_content + '</a>\n';
+  var code = '<a href="' + text_name + '">' + statements_content.trim() + '</a>\n';
   return code;
 };
 
@@ -146,13 +151,13 @@ HtmlGenerator['image'] = function(block) {
 
 HtmlGenerator['emphasise'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<em>' + statements_content + '</em>\n';
+  var code = '<em>' + statements_content.trim() + '</em>\n';
   return code;
 };
 
 HtmlGenerator['strong'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<strong>' + statements_content + '</strong>\n';
+  var code = '<strong>' + statements_content.trim() + '</strong>\n';
   return code;
 };
 
@@ -194,121 +199,104 @@ HtmlGenerator['listelement'] = function(block) {
 
 HtmlGenerator['inserted'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<ins>' + statements_content.trim() + '</ins>\n';
   return code;
 };
 
 HtmlGenerator['deleted'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<del>' + statements_content.trim() + '</del>\n';
   return code;
 };
 
 HtmlGenerator['super'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<sup>' + statements_content.trim() + '</sup>\n';
   return code;
 };
 
 HtmlGenerator['sub'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<sub>' + statements_content.trim() + '</sub>\n';
   return code;
 };
 
 HtmlGenerator['code'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<code>\n' + statements_content + '</code>\n';
   return code;
 };
 
 HtmlGenerator['quote'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<q>' + statements_content.trim() + '</q>\n';
   return code;
 };
 
 HtmlGenerator['blockquote'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+  var code = '<blockquote>\n' + statements_content + '</blockquote>\n';
   return code;
 };
 
 HtmlGenerator['sample'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var code = '<samp>\n' + statements_content + '</samp>\n';
+   return code;
 };
 
 HtmlGenerator['keyboard'] = function(block) {
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var statements_content = HtmlGenerator.statementToCode(block, 'content');
+   var code = '<kbd>\n' + statements_content + '</kbd>\n';
+   return code;
 };
 
 HtmlGenerator['variable'] = function(block) {
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var statements_content = HtmlGenerator.statementToCode(block, 'content');
+   var code = '<var>' + statements_content.trim() + '</var>\n';
+   return code;
 };
 
 HtmlGenerator['form'] = function(block) {
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var statements_content = HtmlGenerator.statementToCode(block, 'content');
+   var code = '<form>\n' + statements_content + '</form>\n';
+   return code;
 };
 
 HtmlGenerator['table'] = function(block) {
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var statements_content = HtmlGenerator.statementToCode(block, 'content');
+   var code = '<table>\n' + statements_content + '</table>\n';
+   return code;
 };
 
 HtmlGenerator['tablerow'] = function(block) {
-  var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+   var statements_content = HtmlGenerator.statementToCode(block, 'content');
+   var code = '<tr>\n' + statements_content + '</tr>\n';
   return code;
 };
 
 HtmlGenerator['tablecell'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var code = '<td>' + statements_content.trim() + '</td>\n';
+   return code;
 };
 
 HtmlGenerator['input_text'] = function(block) {
-  var text_default = block.getFieldValue('default');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var text_default = block.getFieldValue('default');
+   var code = '<input value="' + text_default + '">\n';
+   return code;
 };
 
 HtmlGenerator['button'] = function(block) {
-  var statements_name = HtmlGenerator.statementToCode(block, 'NAME');
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
-  return code;
+   var statements_name = HtmlGenerator.statementToCode(block, 'NAME');
+   var code = '<button>' + statements_name.trim() + '</button>\n';
+   return code;
 };
 
 HtmlGenerator['input'] = function(block) {
-  var dropdown_type = block.getFieldValue('type');
-  var text_value = block.getFieldValue('value');
-  var value_text = HtmlGenerator.valueToCode(block, 'text', HtmlGenerator.ORDER_ATOMIC);
-  // TODO: Assemble JavaScript into code variable.
-  var code = '...;\n';
+   var dropdown_type = block.getFieldValue('type');
+   var text_value = block.getFieldValue('value');
+   var value_text = HtmlGenerator.valueToCode(block, 'text', HtmlGenerator.ORDER_ATOMIC);
+   var code = '<input type="' + dropdown_type + '" value="' + text_value + '"' + value_text + ' />\n';
   return code;
 };
