@@ -82,7 +82,7 @@ HtmlGenerator['division'] = function(block) {
 
 HtmlGenerator['style'] = function(block) {
   var statements_name = HtmlGenerator.statementToCode(block, 'NAME');
-  var code = ' style="' + statements_name + '"';
+  var code = ' style="' + statements_name.trim() + '"';
   return [code, HtmlGenerator.ORDER_NONE];
 };
 
@@ -138,7 +138,7 @@ HtmlGenerator['link'] = function(block) {
 HtmlGenerator['span'] = function(block) {
   var value_name = HtmlGenerator.valueToCode(block, 'NAME', HtmlGenerator.ORDER_ATOMIC);
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<span' + value_name + '>' + statements_content + '</span>\n';
+  var code = '<span' + value_name + '>' + statements_content.trim() + '</span>\n';
   return code;
 };
 
@@ -164,7 +164,7 @@ HtmlGenerator['strong'] = function(block) {
 HtmlGenerator['headline'] = function(block) {
   var dropdown_name = block.getFieldValue('NAME');
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
-  var code = '<' + dropdown_name + '>' + statements_content + '</' +  dropdown_name + '>\n';
+  var code = '<' + dropdown_name + '>' + statements_content.trim() + '</' +  dropdown_name + '>\n';
   return code;
 };
 
