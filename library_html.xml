@@ -25,6 +25,9 @@
                 <field name="ALIGN">LEFT</field>
                 <value name="TYPE">
                   <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+                  <block type="type_other" id="..1lkN1~8iFaAUO.n~V0">
+                    <field name="TYPE">header</field>
+                  </block>
                 </value>
                 <next>
                   <block type="input_dummy" id="$nymQ[j:T,iGDE:#Yo5`">
@@ -40,6 +43,9 @@
                         <field name="ALIGN">LEFT</field>
                         <value name="TYPE">
                           <shadow type="type_null" id="V}KQbje];A^}O*9B18;["></shadow>
+                          <block type="type_other" id="pu;2+p?`g!w+B{{{|,Vw">
+                            <field name="TYPE">html</field>
+                          </block>
                         </value>
                       </block>
                     </next>
@@ -86,6 +92,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="?R|hV3^UIbV=V=`9w3z@">
+                <field name="TYPE">document</field>
+              </block>
             </value>
           </block>
         </next>
@@ -126,6 +135,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="Gn2cM-VI(:@go~;{CH]N">
+                <field name="TYPE">html</field>
+              </block>
             </value>
           </block>
         </next>
@@ -143,9 +155,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="dy}ivGkdt9@0-^,([q9o"></shadow>
+      <block type="type_other" id="qzA;]z^UaEoJ$]Cr=BrL">
+        <field name="TYPE">document</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id=".TbN-V]gfGuexF-/F5oJ"></shadow>
+      <block type="type_other" id="6?j1Xcjx4T{|$n)qQQUD">
+        <field name="TYPE">document</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -172,6 +190,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="BI?PU:MKzgPw7A:7Jr@]">
+                <field name="TYPE">header</field>
+              </block>
             </value>
           </block>
         </next>
@@ -189,9 +210,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="yQ-n^)~weT(.R)mPvN1B"></shadow>
+      <block type="type_other" id="7@1bX=n)0G5g$OVl)7GH">
+        <field name="TYPE">document</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="xe`Rk4iqc@y`^U~rx@90"></shadow>
+      <block type="type_other" id="j4DJT!Fb6?c3VYa[*lq!">
+        <field name="TYPE">document</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -215,6 +242,9 @@
         </statement>
         <value name="TYPE">
           <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+          <block type="type_other" id="1iqIUr^kjT#^Cx=t#WCZ">
+            <field name="TYPE">html</field>
+          </block>
         </value>
       </block>
     </statement>
@@ -230,9 +260,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="L1VHc%,oP_IziaXbeg^%"></shadow>
+      <block type="type_other" id="1u]tH+tkaIT`;V#bO,JL">
+        <field name="TYPE">header</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="CBN#%.4Ft1%OW!h)+/W%"></shadow>
+      <block type="type_other" id="Z*(~=NN;(d*PSCqPy![J">
+        <field name="TYPE">header</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -256,6 +292,9 @@
         </statement>
         <value name="TYPE">
           <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+          <block type="type_other" id="bq+~Ay%c;_xn.[cQLqJ4">
+            <field name="TYPE">html</field>
+          </block>
         </value>
       </block>
     </statement>
@@ -271,9 +310,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="SOYzHgJ^38rE~pA30E/K">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="@VR6=k3A4VWRee!lzXai">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -340,6 +385,9 @@
         </statement>
         <value name="TYPE">
           <shadow type="type_null" id="4})L,Ee-wWBJMMV~T:,f"></shadow>
+          <block type="type_other" id="]2#hZOFm6T#,C[$/b~*E">
+            <field name="TYPE">attribute</field>
+          </block>
         </value>
         <next>
           <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
@@ -347,6 +395,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="tj|f%Y1S`uVze|_u2YGO">
+                <field name="TYPE">html</field>
+              </block>
             </value>
           </block>
         </next>
@@ -364,9 +415,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="n79uw=K3F(e25Tc`DD4-">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="=S35t,]5Ct2vJO395)M}">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -393,6 +450,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="Whd=(:[}!kaP^GJpG#RQ"></shadow>
+              <block type="type_other" id="~C6bd6zSK%OM3)m~;7GC">
+                <field name="TYPE">css</field>
+              </block>
             </value>
           </block>
         </next>
@@ -410,6 +470,9 @@
     </value>
     <value name="OUTPUTTYPE">
       <shadow type="type_null" id="(|R:l?i=fME${br}=s~_"></shadow>
+      <block type="type_other" id="44n}inD}w_-n#/5qUYV,">
+        <field name="TYPE">attribute</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
@@ -450,9 +513,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="K[!N?|aTa9h]PXavKk*8"></shadow>
+      <block type="type_other" id=".WhWsopU6w({]6b(yL0D">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="p}Mm|+0xaNEvkc5]k1zu"></shadow>
+      <block type="type_other" id="dCDts2|_XotDwOg9bK#:">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
@@ -493,9 +562,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="K[!N?|aTa9h]PXavKk*8"></shadow>
+      <block type="type_other" id="H:CRZ$g(uc%XrpHmCG5#">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="p}Mm|+0xaNEvkc5]k1zu"></shadow>
+      <block type="type_other" id="xjjm36U-?gAu~~*{mh$R">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
@@ -542,9 +617,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="K[!N?|aTa9h]PXavKk*8"></shadow>
+      <block type="type_other" id="|1#6Cw:HUw8?_l-6WXrc">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="p}Mm|+0xaNEvkc5]k1zu"></shadow>
+      <block type="type_other" id="rLsSr/mOv8Dz=B,iJVeF">
+        <field name="TYPE">css</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
@@ -579,6 +660,9 @@
         </statement>
         <value name="TYPE">
           <shadow type="type_null" id="4})L,Ee-wWBJMMV~T:,f"></shadow>
+          <block type="type_other" id="ef0T,uO}i70$~r{,L:c+">
+            <field name="TYPE">attribute</field>
+          </block>
         </value>
         <next>
           <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
@@ -586,6 +670,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="PAk^?x~P)@c?45II?/GS">
+                <field name="TYPE">html</field>
+              </block>
             </value>
           </block>
         </next>
@@ -624,6 +711,9 @@
         <field name="ALIGN">LEFT</field>
         <value name="TYPE">
           <shadow type="type_null" id="}KrL3zuUvd_g3ZlmQT_*"></shadow>
+          <block type="type_other" id="u?KnO40Xh}}f~q5h%$Qm">
+            <field name="TYPE">attribute</field>
+          </block>
         </value>
         <next>
           <block type="input_value" id="^Up$LcHP^X?yX7kq?j+4">
@@ -631,6 +721,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="+O1W3TV$l:Y;$I;`rfTF"></shadow>
+              <block type="type_other" id=":/wlt|q:$q^,Ip]l9%_s">
+                <field name="TYPE">attribute</field>
+              </block>
             </value>
             <next>
               <block type="input_value" id="H0cV^5WM2!Rv[is]X7|z">
@@ -638,6 +731,9 @@
                 <field name="ALIGN">LEFT</field>
                 <value name="TYPE">
                   <shadow type="type_null" id="qcXFK0F].ASZw6oFZT=$"></shadow>
+                  <block type="type_other" id="|2|tm$l!#KEuHhG3`ab@">
+                    <field name="TYPE">attribute</field>
+                  </block>
                 </value>
               </block>
             </next>
@@ -657,6 +753,9 @@
     </value>
     <value name="OUTPUTTYPE">
       <shadow type="type_null" id="!UfcCEKMgb66+E1Jw/MY"></shadow>
+      <block type="type_other" id="E]fJdwHETS~k*ViYJ=XZ">
+        <field name="TYPE">attribute</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="#s+^=C!3$F2$|iz/aF5j">
@@ -703,6 +802,9 @@
     </value>
     <value name="OUTPUTTYPE">
       <shadow type="type_null" id="(|R:l?i=fME${br}=s~_"></shadow>
+      <block type="type_other" id="t+gbiI`/CU3L1R~MO@(g">
+        <field name="TYPE">attribute</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
@@ -735,6 +837,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id=".Pk:_Xo~G!e|MEHf,j|k">
+                <field name="TYPE">html</field>
+              </block>
             </value>
           </block>
         </next>
@@ -752,9 +857,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="B{vU5+,(NNL_+.eU7z5A">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="aP-}IswFI%6R5A6h|V9S">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -778,6 +889,9 @@
         </statement>
         <value name="TYPE">
           <shadow type="type_null" id="4})L,Ee-wWBJMMV~T:,f"></shadow>
+          <block type="type_other" id="q(qhysw@}DR=8)_i{!Xa">
+            <field name="TYPE">attribute</field>
+          </block>
         </value>
         <next>
           <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
@@ -785,6 +899,9 @@
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
               <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="CMX$J]GK4jz.,Pb==w=V">
+                <field name="TYPE">html</field>
+              </block>
             </value>
           </block>
         </next>
@@ -802,9 +919,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="BQP0m*R}f#39r7-+b$RG">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="(Vy[edKU0(M,|D==$iu{">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -856,9 +979,15 @@
     </value>
     <value name="TOPTYPE">
       <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="x{8d7#acYnY[y#~wU9Pn">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="BOTTOMTYPE">
       <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="ApTNFUGi{qv4)ru$J(J-">
+        <field name="TYPE">html</field>
+      </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
@@ -1232,6 +1361,961 @@
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
         <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">inserted</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">inserted</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">deleted</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">deleted</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">super</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">superscript</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">sub</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">subscript</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">code</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">code</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">quote</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">quote</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">blockquote</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">blockquote</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">sample</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">sample output</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">keyboard</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">keyboard input</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">variable</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">variable</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">form</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">form</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">table</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">table</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="USoHTS$hWNngUUtkUWez">
+                <field name="TYPE">table</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="6CBzVzJs,EZ}{:fGDk[J">
+        <field name="TYPE">html</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="];V9nwsb}w?_[*r-e2T=">
+        <field name="TYPE">html</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#5ba5a5"></mutation>
+        <field name="HUE">180</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">tablerow</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">row</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="cAs5_MJ0NrgImi^)$vXp">
+                <field name="TYPE">tablerow</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="bNO`S5,y+x^J9+hzM#y_">
+        <field name="TYPE">table</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="219trt=]/1%H;[J%VCL?">
+        <field name="TYPE">table</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#5ba5a5"></mutation>
+        <field name="HUE">180</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">tablecell</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">entry</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="LDhq%Ik(c*5;?mNs-rYZ">
+                <field name="TYPE">html</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+      <block type="type_other" id="GX[=6z-;oNa_-F7|e;fK">
+        <field name="TYPE">tablerow</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+      <block type="type_other" id="7.%3b(1s5Lb=~ZAs!(Ie">
+        <field name="TYPE">tablerow</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#5ba5a5"></mutation>
+        <field name="HUE">180</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">input_text</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="nvl)]{pplO%swy~|?GW2">
+            <field name="TEXT">text input</field>
+            <next>
+              <block type="field_input" id="n%P.x(,P{P`+]Sw`j5I9">
+                <field name="TEXT"></field>
+                <field name="FIELDNAME">default</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">button</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="nvl)]{pplO%swy~|?GW2">
+            <field name="TEXT">button</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="2wuu3:u]P[``X5M_V;Fx">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="e#VAnunn~R$/y2Fu#HqN"></shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">input</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_value" id="VV~y:*afqwS%AC$?}gos">
+        <field name="INPUTNAME">text</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_dropdown" id="Sk.s-n09pnh|jY,2KjR1">
+            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
+            <field name="FIELDNAME">type</field>
+            <field name="USER0">text</field>
+            <field name="CPU0">text</field>
+            <field name="USER1">email</field>
+            <field name="CPU1">email</field>
+            <field name="USER2">number</field>
+            <field name="CPU2">number</field>
+            <field name="USER3">password</field>
+            <field name="CPU3">password</field>
+            <field name="USER4">checkbox</field>
+            <field name="CPU4">checkbox</field>
+            <field name="USER5">radiobutton</field>
+            <field name="CPU5">radio</field>
+            <field name="USER6">button</field>
+            <field name="CPU6">button</field>
+            <field name="USER7">colour</field>
+            <field name="CPU7">color</field>
+            <field name="USER8">date</field>
+            <field name="CPU8">date</field>
+            <field name="USER9">local time</field>
+            <field name="CPU9">datetime-local</field>
+            <field name="USER10">file</field>
+            <field name="CPU10">file</field>
+            <field name="USER11">hidden</field>
+            <field name="CPU11">hidden</field>
+            <field name="USER12">image</field>
+            <field name="CPU12">image</field>
+            <field name="USER13">month</field>
+            <field name="CPU13">month</field>
+            <field name="USER14">range</field>
+            <field name="CPU14">range</field>
+            <field name="USER15">reset</field>
+            <field name="CPU15">reset</field>
+            <field name="USER16">search</field>
+            <field name="CPU16">search</field>
+            <field name="USER17">submit</field>
+            <field name="CPU17">submit</field>
+            <field name="USER18">telephone number</field>
+            <field name="CPU18">tel</field>
+            <field name="USER19">time</field>
+            <field name="CPU19">time</field>
+            <field name="USER20">url</field>
+            <field name="CPU20">url</field>
+            <field name="USER21">week</field>
+            <field name="CPU21">week</field>
+            <next>
+              <block type="field_static" id="nvl)]{pplO%swy~|?GW2">
+                <field name="TEXT">input</field>
+                <next>
+                  <block type="field_input" id="ZN?ot:~Mh#zvx/#Zvs{`">
+                    <field name="TEXT"></field>
+                    <field name="FIELDNAME">value</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="^ie,b*/vGSO,a/)}H;Eq"></shadow>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">script</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="Eq}+)S=1.~7)d%2u;U:(">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="$Nvjd`dOOOW8RdFT]/7/">
+            <field name="TEXT">script</field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="G=XG;fCLl3!c6GM17`Yt">
+            <field name="INPUTNAME">content</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
+              <block type="type_other" id="2=XG|w26xUeg$`.{s`hU">
+                <field name="TYPE">code</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="R?.3!qt:L|Eu?Xv/#aea" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
+        <mutation colour="#80a55b"></mutation>
+        <field name="HUE">90</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id=":-t5[PLmDJ5ZY%v?6gR$" deletable="false" movable="false" x="0" y="0">
+    <mutation connections="LEFT"></mutation>
+    <field name="NAME">onclick</field>
+    <field name="INLINE">INT</field>
+    <field name="CONNECTIONS">LEFT</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="kOB$c9pDAzg?{d@Ah/nh">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="4Bi+e~w1(1/vl.d|v,Jq">
+            <field name="TEXT">on click = </field>
+          </block>
+        </statement>
+        <next>
+          <block type="input_statement" id="_Hk-9~Nk6UGZwOeW8k5l">
+            <field name="INPUTNAME">NAME</field>
+            <field name="ALIGN">LEFT</field>
+            <value name="TYPE">
+              <shadow type="type_null" id="^;Px5ytY$cns_2{o^6kh"></shadow>
+              <block type="type_other" id="]TTT|1)tvQa!T@Wl}KcW">
+                <field name="TYPE">code</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="%yJ[9S0q[=[`Nenm2|i]" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="DdsZ}:;h%UsJSyw/~54D" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="OUTPUTTYPE">
+      <shadow type="type_null" id="(|R:l?i=fME${br}=s~_"></shadow>
+      <block type="type_other" id="t+gbiI`/CU3L1R~MO@(g">
+        <field name="TYPE">attribute</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
       </block>
     </value>
   </block></xml>
