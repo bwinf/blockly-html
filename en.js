@@ -1,4 +1,24 @@
 Msg = {
+  categories: {
+    "html": "HTML",
+    "baseframe": "Base frame",
+    "textstructure": "Text structure",
+    "markup": "Text markup",
+    "style": "Style",
+    "enumerations": "Enumeration",
+    "tables": "Tables",
+    "forms": "Forms",
+    "scripts": "Script",
+    "scripting": "Scripting",
+    "logic": "Logic",
+    "loops": "Loops",
+    "math": "Math",
+    "text": "Text",
+    "lists": "Lists",
+    "colour": "Colour",
+    "variables": "Variables",
+    "functions": "Functions",
+  },
   blocks: {
     "baseframe": {
       "message0": "document %1 header %2 %3 content %4 %5",

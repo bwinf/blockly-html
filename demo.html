@@ -59,7 +59,7 @@
         <div><span id="loadText">📂 Load blocks:</span> <input type="file" id="fileButton" style="max-width:200px" /></div>
         <div><span id="exportText">📄 Export webpage as HTML:</span> <input type="button" value="Export" id="exportButton" /></div>
         <script>
-          if (Msg && Msg.buttons) {
+          if (typeof(Msg) == "object" && Msg.buttons) {
             document.getElementById("saveText").textContent   = Msg.buttons.save.desc;
             document.getElementById("saveButton").textContent = Msg.buttons.save.button;
             document.getElementById("loadText").textContent   = Msg.buttons.load.desc;
@@ -74,9 +74,9 @@
     </div>
 
     <xml xmlns="http://www.w3.org/1999/xhtml" id="toolbox" style="display: none;">
-      <category name="HTML"></category>
+      <category name="html"></category>
       <sep></sep>
-      <category name="Base frame" colour="#a55b5b">
+      <category name="baseframe" colour="#a55b5b">
         <block type="html">
           <statement name="content">
             <block type="head">
@@ -103,7 +103,7 @@
           </statement>
         </block>
       </category>
-      <category name="Text structure" colour="#5ba55b">
+      <category name="textstructure" colour="#5ba55b">
         <block type="plaintext"></block>
         <block type="horizontalbreak"></block>
         <block type="linebreak"></block>
@@ -114,7 +114,7 @@
         </block>
         <block type="generictag"></block>
       </category>
-      <category name="Text markup" colour="#5ba55b">
+      <category name="markup" colour="#5ba55b">
         <block type="emphasise"></block>
         <block type="inserted"></block>
         <block type="strong"></block>
@@ -129,7 +129,7 @@
         <block type="variable"></block>
         <block type="division"></block>
       </category>
-      <category name="Style" colour="#5b6da5">
+      <category name="style" colour="#5b6da5">
         <block type="span">
           <value name="NAME">
             <block type="style"></block>
@@ -144,12 +144,12 @@
         <block type="division"></block>
         <block type="generictag"></block>
       </category>
-      <category name="Enumeration" colour="#a55ba5">
+      <category name="enumerations" colour="#a55ba5">
         <block type="unorderedlist"></block>
         <block type="orderedlist"></block>
         <block type="listelement"></block>
       </category>
-      <category name="Tables" colour="#5ba5a5">
+      <category name="tables" colour="#5ba5a5">
         <block type="table">
           <statement name="content">
             <block type="tablerow">
@@ -178,21 +178,21 @@
         <block type="tablerow"></block>
         <block type="tablecell"></block>
       </category>
-      <category name="Forms" colour="#80a55b">
+      <category name="forms" colour="#80a55b">
         <block type="form"></block>
         <block type="input_text"></block>
         <block type="button"></block>
         <block type="input"><field name="value"></field>
         </block>
       </category>
-      <category name="Script" colour="#a5a55b">
+      <category name="scripts" colour="#a5a55b">
         <block type="script"></block>
         <block type="onclick"></block>
       </category>
       <sep></sep>
-      <category name="Scripting"></category>
+      <category name="scripting"></category>
       <sep></sep>
-      <category name="Logic" colour="#5C81A6">
+      <category name="logic" colour="#5C81A6">
         <block type="controls_if"></block>
         <block type="logic_compare"></block>
         <block type="logic_operation"></block>
@@ -201,7 +201,7 @@
         <block type="logic_null"></block>
         <block type="logic_ternary"></block>
       </category>
-      <category name="Loops" colour="#5CA65C">
+      <category name="loops" colour="#5CA65C">
         <block type="controls_repeat_ext">
           <value name="TIMES">
             <shadow type="math_number"></shadow>
@@ -221,7 +221,7 @@
         <block type="controls_forEach"></block>
         <block type="controls_flow_statements"></block>
       </category>
-      <category name="Math" colour="#5C68A6">
+      <category name="math" colour="#5C68A6">
         <block type="math_round"><value name="NUM">
             <shadow type="math_number"></shadow>
           </value>
@@ -279,7 +279,7 @@
         </block>
         <block type="math_random_float"></block>
       </category>
-      <category name="Text" colour="#5CA68D">
+      <category name="text" colour="#5CA68D">
         <block type="text_charAt">
           <mutation at="true"></mutation><value name="VALUE">
             <block type="variables_get"></block>
@@ -335,7 +335,7 @@
           </value>
         </block>
       </category>
-      <category name="Lists" colour="#745CA6">
+      <category name="lists" colour="#745CA6">
         <block type="lists_indexOf"><value name="VALUE">
             <block type="variables_get"></block>
           </value>
@@ -379,7 +379,7 @@
         <block type="lists_sort"><field name="DIRECTION">1</field>
         </block>
       </category>
-      <category name="Colour" colour="#A6745C">
+      <category name="colour" colour="#A6745C">
         <block type="colour_picker"></block>
         <block type="colour_random"></block>
         <block type="colour_rgb">
@@ -405,9 +405,21 @@
           </value>
         </block>
       </category>
-      <category name="Variables" colour="#A65C81" custom="VARIABLE"></category>
-      <category name="Functions" colour="#9A5CA6" custom="PROCEDURE"></category>
+      <category name="variables" colour="#A65C81" custom="VARIABLE"></category>
+      <category name="functions" colour="#9A5CA6" custom="PROCEDURE"></category>
     </xml>
+
+    <script>
+      if (typeof(Msg) == "object" && Msg.categories) {
+        for (category in Msg.categories) {
+          elements = document.getElementsByName(category);
+          if (elements.length == 0) {
+            continue;
+          }
+          elements[0].setAttribute("name", Msg.categories[category]);
+        }
+      }
+    </script>
 
     <xml xmlns="http://www.w3.org/1999/xhtml" id="workspaceBlocks" style="display:none">
       <variables></variables>
