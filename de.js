@@ -15,7 +15,7 @@ Msg = {
   categories: {
     "html": "HTML",
     "baseframe": "Grundgerüst",
-    "textstructure": "Textstrukture",
+    "textstructure": "Textstruktur",
     "markup": "Textauszeichnung",
     "style": "Gestaltung",
     "enumerations": "Aufzählungen",
