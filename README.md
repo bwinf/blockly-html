@@ -9,19 +9,16 @@ A German demo is available as well: http://htmlbausteine.zgtm.de/
 
 ## Try the demo
 
-The file `blockly/blockly_compressed.js`, required to run the demo, is not included in this repository, but can be obtained from
-https://github.com/google/blockly/blob/master/blockly_compressed.js
+The files `blockly_compressed.js`, `blocks_compressed.js`, `javascript_compressed.js` and `msg/js/en.js`
+of the Blockly repository need to be present in the directory `blockly`.
 
-For the full experience you should also add these files:
-https://github.com/google/blockly/blob/master/blockls_compressed.js
-https://github.com/google/blockly/blob/master/javascript_compressed.js
-https://github.com/google/blockly/blob/master/msg/js/en.js
-TODO: Add all these to this repository …
+You can simply checkout the repository https://github.com/google/blockly or unzip https://github.com/google/blockly/archive/master.zip into the directory `blockly`.
+Or you can pick the files above manually to create an environment you can distribute without moving the whole Blockly source code around.
 
 The demo saves the workspace in the local browser storage. 
 Additionally, it supports importing and exporting blocks (Blockly XML) and exporting the HTML document.
 
-A German localisation of the demo can be enabled by loading `de.js` instead of `en.js` in the header of the HTML file.
+A German localisation of the demo can be enabled by loading `de.js` instead of `en.js` in the header of the HTML file. (This also needs `msg/js/de.js` from Blockly.)
 
 ## Library files
 
