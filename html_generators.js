@@ -3,6 +3,9 @@
 
 var HtmlGenerator = new Blockly.Generator('HTML');
 
+HtmlGenerator.ORDER_ATOMIC = 0;
+HtmlGenerator.ORDER_NONE = 0;
+
 HtmlGenerator.init = function(workspace) {};
 HtmlGenerator.finish = function(code) {return code;};
 
