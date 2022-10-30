@@ -66,9 +66,9 @@
     <div id="container">
       <div id="blocklyArea"></div>
       <div id="menubar">
-        <div><span id="saveText">💾 Save blocks:</span> <input type="button" value="Save" id="saveButton" /></div>
-        <div><span id="loadText">📂 Load blocks:</span> <input type="file" id="fileButton" style="max-width:200px" /></div>
-        <div><span id="exportText">📄 Export webpage as HTML:</span> <input type="button" value="Export" id="exportButton" /></div>
+        <div><span id="saveText">💾 </span> <input type="button" value="存檔" id="saveButton" /></div>
+        <div><span id="loadText">📂 </span> <input type="file" id="fileButton" style="max-width:150px" /></div>
+        <div><span id="exportText">📄 </span> <input type="button" value="輸出為HTML" id="exportButton" /></div>
         <script>
           if (typeof(Msg) == "object" && Msg.buttons) {
             document.getElementById("saveText").textContent   = Msg.buttons.save.desc;
