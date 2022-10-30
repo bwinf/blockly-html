@@ -9,7 +9,7 @@ A German demo is available as well: http://htmlbausteine.zgtm.de/
 
 中文的試用可以在這裡看到: https://bestian.github.io/blockly-html/
 
-<img src="example.png" width="500" alt="Screenshot" />
+<img src="screenshot.png" width="500" alt="Screenshot" />
 
 ## Try the demo
 
