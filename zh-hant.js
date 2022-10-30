@@ -36,7 +36,7 @@ Msg = {
       "message0": "標題 %1",
     },
     "paragraph": {
-      "message0": "段茖 %1",
+      "message0": "段落 %1",
     },
     "plaintext": {
       "message0": "文字 %1",
@@ -88,7 +88,7 @@ Msg = {
       ],
     },
     "link": {
-      "message0": "link to %1 %2 %3",
+      "message0": "連到 %1 %2 %3",
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"text": "target"}],
