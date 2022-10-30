@@ -122,12 +122,12 @@ Msg = {
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp",
       "args0": [{"options": [
-        ["level 1","h1"],
-        ["level 2","h2"],
-        ["level 3","h3"],
-        ["level 4","h4"],
-        ["level 5","h5"],
-        ["level 6","h6"]
+        ["大標 1","h1"],
+        ["副標 2","h2"],
+        ["小標 3","h3"],
+        ["小標 4","h4"],
+        ["小標 5","h5"],
+        ["小標 6","h6"]
       ]}],
     },
     "linebreak": {
