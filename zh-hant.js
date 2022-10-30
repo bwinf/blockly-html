@@ -48,7 +48,7 @@ Msg = {
       "message0": "文字 %1",
     },
     "division": {
-      "message0": "區塊 %1 %2",
+      "message0": "區塊 %1 %2"
     },
     "style": {
       "message0": "樣式 =  %1 %2",
