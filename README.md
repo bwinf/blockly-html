@@ -1,9 +1,13 @@
 # Blockly-HTML
 Blockly blocks and generators for HTML generation and a demo with live preview.
 
+這個程式可以用區塊拖拉來建構HTML網頁原始碼
+
 The demo can be tested here: http://blocklyhtml.zgtm.de/
 
 A German demo is available as well: http://htmlbausteine.zgtm.de/
+
+中文的試用可以在這裡看到: https://bestian.github.io/blockly-html/
 
 <img src="example.png" width="500" alt="Screenshot" />
 
