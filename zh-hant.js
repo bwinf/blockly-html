@@ -4,7 +4,7 @@ Msg = {
     "baseframe": "基本架構",
     "textstructure": "文字架構",
     "markup": "文字表示",
-    "style": "樣表",
+    "style": "樣式",
     "enumerations": "清單",
     "tables": "表格",
     "forms": "表單",
