@@ -29,11 +29,17 @@ Msg = {
     "body": {
       "message0": "內容 %1 %2",
     },
+    "body_attributes": {
+      "message0": "內容 %1 %2",
+    },
     "head": {
       "message0": "頭部 %1 %2",
     },
     "title": {
       "message0": "標題 %1",
+    },
+    "global_style": {
+      "message0": "全域樣式 %1",
     },
     "paragraph": {
       "message0": "段落 %1",
@@ -56,6 +62,14 @@ Msg = {
     },
     "bgcolour": {
       "message0": "背景顏色 :  %1",
+      "helpUrl": ""
+    },
+    "margin": {
+      "message0": "外部留白 :  %1",
+      "helpUrl": ""
+    },
+    "padding": {
+      "message0": "內部留白 :  %1",
       "helpUrl": ""
     },
     "genericstyle": {

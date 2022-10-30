@@ -1,5 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="NONE"/>
+    <mutation connections="NONE"></mutation>
     <field name="NAME">baseFrame</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">NONE</field>
@@ -59,7 +59,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -69,12 +69,12 @@
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="NONE"/>
+    <mutation connections="NONE"></mutation>
     <field name="NAME">html</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">NONE</field>
@@ -102,7 +102,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -112,12 +112,12 @@
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">body</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -145,7 +145,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -154,25 +154,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="o)G/=~4*xq/puDnlQZ[b"/>
+      <shadow type="type_null" id="o)G/=~4*xq/puDnlQZ[b"></shadow>
       <block type="type_other" id="qzA;]z^UaEoJ$]Cr=BrL">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="%AIJY/{O}8|r!$j0m|]~"/>
+      <shadow type="type_null" id="%AIJY/{O}8|r!$j0m|]~"></shadow>
       <block type="type_other" id="6?j1Xcjx4T{|$n)qQQUD">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">head</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -200,7 +200,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -209,25 +209,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="U=Jjwf#+igLUhfp~^Ov`"/>
+      <shadow type="type_null" id="U=Jjwf#+igLUhfp~^Ov`"></shadow>
       <block type="type_other" id="7@1bX=n)0G5g$OVl)7GH">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="?*2x32Vf0;nAouA/,k6i"/>
+      <shadow type="type_null" id="?*2x32Vf0;nAouA/,k6i"></shadow>
       <block type="type_other" id="j4DJT!Fb6?c3VYa[*lq!">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">title</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -250,7 +250,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -259,25 +259,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="aXLw5kepJ;Ve}?`{[Q$D"/>
+      <shadow type="type_null" id="aXLw5kepJ;Ve}?`{[Q$D"></shadow>
       <block type="type_other" id="1u]tH+tkaIT`;V#bO,JL">
         <field name="TYPE">header</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="_jN5h1nsjTEWUe?_uxOg"/>
+      <shadow type="type_null" id="_jN5h1nsjTEWUe?_uxOg"></shadow>
       <block type="type_other" id="Z*(~=NN;(d*PSCqPy![J">
         <field name="TYPE">header</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">paragraph</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -300,7 +300,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -309,25 +309,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="Z8n6eoMI,DPaHnYr/%HL"/>
+      <shadow type="type_null" id="Z8n6eoMI,DPaHnYr/%HL"></shadow>
       <block type="type_other" id="SOYzHgJ^38rE~pA30E/K">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="7`5+x7cx]OT.NE_]:]JM"/>
+      <shadow type="type_null" id="7`5+x7cx]OT.NE_]:]JM"></shadow>
       <block type="type_other" id="@VR6=k3A4VWRee!lzXai">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">plaintext</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -339,7 +339,7 @@
             <field name="TEXT">text</field>
             <next>
               <block type="field_input" id="(,DJCQZ%F(K(iT-hKd[Y">
-                <field name="TEXT"/>
+                <field name="TEXT"></field>
                 <field name="FIELDNAME">content</field>
               </block>
             </next>
@@ -349,7 +349,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -358,19 +358,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b80"/>
+        <mutation colour="#a55b80"></mutation>
         <field name="HUE">330</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">division</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -405,7 +405,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -414,25 +414,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="i)pDoZbgjDVYcxWeH}pm"/>
+      <shadow type="type_null" id="i)pDoZbgjDVYcxWeH}pm"></shadow>
       <block type="type_other" id="n79uw=K3F(e25Tc`DD4-">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="b-SroW6=jSmjGk!^3F4R"/>
+      <shadow type="type_null" id="b-SroW6=jSmjGk!^3F4R"></shadow>
       <block type="type_other" id="=S35t,]5Ct2vJO395)M}">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=":-t5[PLmDJ5ZY%v?6gR$" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="LEFT"/>
+    <mutation connections="LEFT"></mutation>
     <field name="NAME">style</field>
     <field name="INLINE">INT</field>
     <field name="CONNECTIONS">LEFT</field>
@@ -460,28 +460,28 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="%yJ[9S0q[=[`Nenm2|i]" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="DdsZ}:;h%UsJSyw/~54D" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="OUTPUTTYPE">
-      <shadow type="type_null" id="3xivR}Dn6w#8Q9k-_(Du"/>
+      <shadow type="type_null" id="3xivR}Dn6w#8Q9k-_(Du"></shadow>
       <block type="type_other" id="44n}inD}w_-n#/5qUYV,">
         <field name="TYPE">attribute</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id="y@[iQuhuW.WLCtcq;r^v" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">color</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -503,34 +503,34 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="=uqTbV_m^nwbBbcri=Ho" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="SXq`J7`/0Mt-KfD{FkrK" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id=")H.DCFyhw;m^wl`sC}|J"/>
+      <shadow type="type_null" id=")H.DCFyhw;m^wl`sC}|J"></shadow>
       <block type="type_other" id=".WhWsopU6w({]6b(yL0D">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="7n1(M48wkySnD~^v)svP"/>
+      <shadow type="type_null" id="7n1(M48wkySnD~^v)svP"></shadow>
       <block type="type_other" id="dCDts2|_XotDwOg9bK#:">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id="y@[iQuhuW.WLCtcq;r^v" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">bgcolour</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -552,34 +552,34 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="=uqTbV_m^nwbBbcri=Ho" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="SXq`J7`/0Mt-KfD{FkrK" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="PLeOiBH2R4%%N5P+mM$*"/>
+      <shadow type="type_null" id="PLeOiBH2R4%%N5P+mM$*"></shadow>
       <block type="type_other" id="H:CRZ$g(uc%XrpHmCG5#">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="*=UmiMdNauhnxTfhOfG^"/>
+      <shadow type="type_null" id="*=UmiMdNauhnxTfhOfG^"></shadow>
       <block type="type_other" id="xjjm36U-?gAu~~*{mh$R">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id="y@[iQuhuW.WLCtcq;r^v" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">genericstyle</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -607,34 +607,34 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="=uqTbV_m^nwbBbcri=Ho" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="SXq`J7`/0Mt-KfD{FkrK" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="NtRv}/V}sdCOs/F.cKmB"/>
+      <shadow type="type_null" id="NtRv}/V}sdCOs/F.cKmB"></shadow>
       <block type="type_other" id="|1#6Cw:HUw8?_l-6WXrc">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="1WRkg806$p,G:57Sll:u"/>
+      <shadow type="type_null" id="1WRkg806$p,G:57Sll:u"></shadow>
       <block type="type_other" id="rLsSr/mOv8Dz=B,iJVeF">
         <field name="TYPE">css</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="_a^*J?#)atn:y}X},)0z">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">generictag</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -680,7 +680,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -689,19 +689,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id="{71$q^$r;ppC^M9l;-~X" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="LEFT"/>
+    <mutation connections="LEFT"></mutation>
     <field name="NAME">more_attributes</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">LEFT</field>
@@ -743,28 +743,28 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="2?pjq0C@zG9{(4bd1,e0" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="YG7y5FA=%@f:aQ@5x?JT" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="OUTPUTTYPE">
-      <shadow type="type_null" id="3r[7=tR[k|RH:#?xz#X~"/>
+      <shadow type="type_null" id="3r[7=tR[k|RH:#?xz#X~"></shadow>
       <block type="type_other" id="E]fJdwHETS~k*ViYJ=XZ">
         <field name="TYPE">attribute</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="#s+^=C!3$F2$|iz/aF5j">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id=":-t5[PLmDJ5ZY%v?6gR$" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="LEFT"/>
+    <mutation connections="LEFT"></mutation>
     <field name="NAME">genericattribute</field>
     <field name="INLINE">INT</field>
     <field name="CONNECTIONS">LEFT</field>
@@ -792,28 +792,28 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="%yJ[9S0q[=[`Nenm2|i]" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="DdsZ}:;h%UsJSyw/~54D" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="OUTPUTTYPE">
-      <shadow type="type_null" id="JM,Q-V$X#pj!a3I,}owH"/>
+      <shadow type="type_null" id="JM,Q-V$X#pj!a3I,}owH"></shadow>
       <block type="type_other" id="t+gbiI`/CU3L1R~MO@(g">
         <field name="TYPE">attribute</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">link</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -847,7 +847,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -856,25 +856,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="a_BwWEYbiU_**S*oZ;zc"/>
+      <shadow type="type_null" id="a_BwWEYbiU_**S*oZ;zc"></shadow>
       <block type="type_other" id="B{vU5+,(NNL_+.eU7z5A">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="cA3xPY^/O7.@,/cU?aFW"/>
+      <shadow type="type_null" id="cA3xPY^/O7.@,/cU?aFW"></shadow>
       <block type="type_other" id="aP-}IswFI%6R5A6h|V9S">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">span</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -909,7 +909,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -918,25 +918,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="AZi2dlUkd:x,rGBeXB+."/>
+      <shadow type="type_null" id="AZi2dlUkd:x,rGBeXB+."></shadow>
       <block type="type_other" id="BQP0m*R}f#39r7-+b$RG">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="`mM/|k29`9b7/@)cVu6^"/>
+      <shadow type="type_null" id="`mM/|k29`9b7/@)cVu6^"></shadow>
       <block type="type_other" id="(Vy[edKU0(M,|D==$iu{">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">image</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -969,7 +969,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -978,25 +978,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="Ub[?Fp4{cXO=0?62p@o="/>
+      <shadow type="type_null" id="Ub[?Fp4{cXO=0?62p@o="></shadow>
       <block type="type_other" id="x{8d7#acYnY[y#~wU9Pn">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="m3Y%Q4Ycd|u7jJ]!@UQ~"/>
+      <shadow type="type_null" id="m3Y%Q4Ycd|u7jJ]!@UQ~"></shadow>
       <block type="type_other" id="ApTNFUGi{qv4)ru$J(J-">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">emphasise</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1013,7 +1013,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1021,7 +1021,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1030,19 +1030,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">strong</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1059,7 +1059,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1067,7 +1067,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1076,19 +1076,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">headline</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1100,7 +1100,7 @@
             <field name="TEXT">headline</field>
             <next>
               <block type="field_dropdown" id=",2#i67ikTW9A[rboY/D@">
-                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+                <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
                 <field name="FIELDNAME">NAME</field>
                 <field name="USER0">level 1</field>
                 <field name="CPU0">h1</field>
@@ -1123,7 +1123,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1131,7 +1131,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1140,19 +1140,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">linebreak</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1168,7 +1168,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1177,19 +1177,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b80"/>
+        <mutation colour="#a55b80"></mutation>
         <field name="HUE">330</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">horizontalbreak</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1205,7 +1205,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1214,19 +1214,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b80"/>
+        <mutation colour="#a55b80"></mutation>
         <field name="HUE">330</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">unorderedlist</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1243,7 +1243,7 @@
             <field name="INPUTNAME">NAME</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="@%?NV1BCT`@O^K4*2Wd("/>
+              <shadow type="type_null" id="@%?NV1BCT`@O^K4*2Wd("></shadow>
             </value>
           </block>
         </next>
@@ -1251,7 +1251,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1260,19 +1260,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b80"/>
+        <mutation colour="#a55b80"></mutation>
         <field name="HUE">330</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">orderedlist</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1289,7 +1289,7 @@
             <field name="INPUTNAME">NAME</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="@%?NV1BCT`@O^K4*2Wd("/>
+              <shadow type="type_null" id="@%?NV1BCT`@O^K4*2Wd("></shadow>
             </value>
           </block>
         </next>
@@ -1297,7 +1297,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1306,19 +1306,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b80"/>
+        <mutation colour="#a55b80"></mutation>
         <field name="HUE">330</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">listelement</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1335,7 +1335,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1343,7 +1343,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1352,19 +1352,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">inserted</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1381,7 +1381,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1389,7 +1389,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1398,19 +1398,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">deleted</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1427,7 +1427,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1435,7 +1435,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1444,19 +1444,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">super</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1473,7 +1473,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1481,7 +1481,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1490,19 +1490,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">sub</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1519,7 +1519,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1527,7 +1527,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1536,19 +1536,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">code</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1565,7 +1565,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1573,7 +1573,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1582,19 +1582,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">quote</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1611,7 +1611,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1619,7 +1619,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1628,19 +1628,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">blockquote</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1657,7 +1657,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1665,7 +1665,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1674,19 +1674,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">sample</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1703,7 +1703,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1711,7 +1711,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1720,19 +1720,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">keyboard</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1749,7 +1749,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1757,7 +1757,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1766,19 +1766,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">variable</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1795,7 +1795,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1803,7 +1803,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1812,19 +1812,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">form</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1841,7 +1841,7 @@
             <field name="INPUTNAME">content</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"/>
+              <shadow type="type_null" id="BLj0bOn$fER9KS;#`RU]"></shadow>
             </value>
           </block>
         </next>
@@ -1849,7 +1849,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1858,19 +1858,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">table</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1898,7 +1898,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1907,25 +1907,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="DAV;vM.E=lo?}QXzP~Hz"/>
+      <shadow type="type_null" id="DAV;vM.E=lo?}QXzP~Hz"></shadow>
       <block type="type_other" id="6CBzVzJs,EZ}{:fGDk[J">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="h_vSmspc+G!{`Innlg,O"/>
+      <shadow type="type_null" id="h_vSmspc+G!{`Innlg,O"></shadow>
       <block type="type_other" id="];V9nwsb}w?_[*r-e2T=">
         <field name="TYPE">html</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#5ba5a5"/>
+        <mutation colour="#5ba5a5"></mutation>
         <field name="HUE">180</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">tablerow</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -1953,7 +1953,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -1962,25 +1962,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="=[3W9WayDAL9lQ3D~vcZ"/>
+      <shadow type="type_null" id="=[3W9WayDAL9lQ3D~vcZ"></shadow>
       <block type="type_other" id="bNO`S5,y+x^J9+hzM#y_">
         <field name="TYPE">table</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="~L76-!sU5RkO7QLQ|h8c"/>
+      <shadow type="type_null" id="~L76-!sU5RkO7QLQ|h8c"></shadow>
       <block type="type_other" id="219trt=]/1%H;[J%VCL?">
         <field name="TYPE">table</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#5ba5a5"/>
+        <mutation colour="#5ba5a5"></mutation>
         <field name="HUE">180</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">tablecell</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2008,7 +2008,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2017,25 +2017,25 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="fs0$!_{b/O/2G6j8:g%z"/>
+      <shadow type="type_null" id="fs0$!_{b/O/2G6j8:g%z"></shadow>
       <block type="type_other" id="GX[=6z-;oNa_-F7|e;fK">
         <field name="TYPE">tablerow</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="9I5[$8w)d0+BG,YR~/F~"/>
+      <shadow type="type_null" id="9I5[$8w)d0+BG,YR~/F~"></shadow>
       <block type="type_other" id="7.%3b(1s5Lb=~ZAs!(Ie">
         <field name="TYPE">tablerow</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#5ba5a5"/>
+        <mutation colour="#5ba5a5"></mutation>
         <field name="HUE">180</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">input_text</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2047,7 +2047,7 @@
             <field name="TEXT">text input</field>
             <next>
               <block type="field_input" id="n%P.x(,P{P`+]Sw`j5I9">
-                <field name="TEXT"/>
+                <field name="TEXT"></field>
                 <field name="FIELDNAME">default</field>
               </block>
             </next>
@@ -2057,7 +2057,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2066,19 +2066,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">button</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2095,7 +2095,7 @@
             <field name="INPUTNAME">NAME</field>
             <field name="ALIGN">LEFT</field>
             <value name="TYPE">
-              <shadow type="type_null" id="e#VAnunn~R$/y2Fu#HqN"/>
+              <shadow type="type_null" id="e#VAnunn~R$/y2Fu#HqN"></shadow>
             </value>
           </block>
         </next>
@@ -2103,7 +2103,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2112,19 +2112,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">input</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2134,7 +2134,7 @@
         <field name="ALIGN">LEFT</field>
         <statement name="FIELDS">
           <block type="field_dropdown" id="Sk.s-n09pnh|jY,2KjR1">
-            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"/>
+            <mutation options="[&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;,&quot;text&quot;]"></mutation>
             <field name="FIELDNAME">type</field>
             <field name="USER0">text</field>
             <field name="CPU0">text</field>
@@ -2185,7 +2185,7 @@
                 <field name="TEXT">input</field>
                 <next>
                   <block type="field_input" id="ZN?ot:~Mh#zvx/#Zvs{`">
-                    <field name="TEXT"/>
+                    <field name="TEXT"></field>
                     <field name="FIELDNAME">value</field>
                   </block>
                 </next>
@@ -2194,13 +2194,13 @@
           </block>
         </statement>
         <value name="TYPE">
-          <shadow type="type_null" id="^ie,b*/vGSO,a/)}H;Eq"/>
+          <shadow type="type_null" id="^ie,b*/vGSO,a/)}H;Eq"></shadow>
         </value>
       </block>
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2209,19 +2209,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">script</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2249,7 +2249,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2258,19 +2258,19 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"/>
+      <shadow type="type_null" id="eA90.8h@dZOnhT$LeX.:"></shadow>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"/>
+      <shadow type="type_null" id="N/qP;#CGcZ{H[Dk,r?]+"></shadow>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#80a55b"/>
+        <mutation colour="#80a55b"></mutation>
         <field name="HUE">90</field>
       </block>
     </value>
   </block><block type="factory_base" id=":-t5[PLmDJ5ZY%v?6gR$" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="LEFT"/>
+    <mutation connections="LEFT"></mutation>
     <field name="NAME">onclick</field>
     <field name="INLINE">INT</field>
     <field name="CONNECTIONS">LEFT</field>
@@ -2298,28 +2298,28 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id="%yJ[9S0q[=[`Nenm2|i]" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
       <block type="text" id="DdsZ}:;h%UsJSyw/~54D" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="OUTPUTTYPE">
-      <shadow type="type_null" id="7r,jk{QxS;5}Ag$Ibmgw"/>
+      <shadow type="type_null" id="7r,jk{QxS;5}Ag$Ibmgw"></shadow>
       <block type="type_other" id="t+gbiI`/CU3L1R~MO@(g">
         <field name="TYPE">attribute</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="-I5*mUbhWi`xt4rk[2kU">
-        <mutation colour="#5b67a5"/>
+        <mutation colour="#5b67a5"></mutation>
         <field name="HUE">230</field>
       </block>
     </value>
   </block><block type="factory_base" id=",uZ?DNf{6+qhfT`pYF6H" deletable="false" movable="false" x="0" y="0">
-    <mutation connections="BOTH"/>
+    <mutation connections="BOTH"></mutation>
     <field name="NAME">body_attributes</field>
     <field name="INLINE">AUTO</field>
     <field name="CONNECTIONS">BOTH</field>
@@ -2333,7 +2333,7 @@
           </block>
         </statement>
         <value name="TYPE">
-          <shadow type="type_null" id="#0m[GeDzq%k?ShlFYP`:"/>
+          <shadow type="type_null" id="#0m[GeDzq%k?ShlFYP`:"></shadow>
           <block type="type_other" id="AVfgHF=)E:[#JBLy=W](">
             <field name="TYPE">attribute</field>
           </block>
@@ -2354,7 +2354,7 @@
     </statement>
     <value name="TOOLTIP">
       <block type="text" id=":}DEzID4=tMRK}@{b).[" deletable="false" movable="false">
-        <field name="TEXT"/>
+        <field name="TEXT"></field>
       </block>
     </value>
     <value name="HELPURL">
@@ -2363,20 +2363,168 @@
       </block>
     </value>
     <value name="TOPTYPE">
-      <shadow type="type_null" id="xM5u^tRX^hDAVtWk.zH["/>
+      <shadow type="type_null" id="xM5u^tRX^hDAVtWk.zH["></shadow>
       <block type="type_other" id="qzA;]z^UaEoJ$]Cr=BrL">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="BOTTOMTYPE">
-      <shadow type="type_null" id="!:lp]l-5O5TqGWs3cpIv"/>
+      <shadow type="type_null" id="!:lp]l-5O5TqGWs3cpIv"></shadow>
       <block type="type_other" id="6?j1Xcjx4T{|$n)qQQUD">
         <field name="TYPE">document</field>
       </block>
     </value>
     <value name="COLOUR">
       <block type="colour_hue" id="[@5*@t_`=T(C(rX^c;%l">
-        <mutation colour="#a55b5b"/>
+        <mutation colour="#a55b5b"></mutation>
+        <field name="HUE">0</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="(KfBY,0@#Q{F~Y%y*`VZ" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">margin</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="uBJt=xZ.,wJ6RB)%R0[h">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="eqwq0WtQrAgYxE%(~x0L">
+            <field name="TEXT">margin: </field>
+            <next>
+              <block type="field_input" id="!`]=1.~fo~q}vI*]1;nP">
+                <field name="TEXT">3px</field>
+                <field name="FIELDNAME">NAME</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="G0ZyqFz24`$;q$^v@o3{" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="A$uO~PEsf!)(%a-H;_ND" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="{v?TNyhu:#XpKS[Q`_;o"></shadow>
+      <block type="type_other" id="ppw0,pL1kM%U3[W-;Rf0">
+        <field name="TYPE">css</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="uhed6$Bb^v)189excINl"></shadow>
+      <block type="type_other" id="Va{p*kvb?%+K$mFyg/sY">
+        <field name="TYPE">css</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="|/nowlt!w2#~Qy`QrGD]">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="/-?Ye?b~Wy2QSgZZVvQ|" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">padding</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_dummy" id="vv6}s=^}IjokD)lgFhT0">
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="V$hScnj[xkYZHm}a[z=_">
+            <field name="TEXT">padding: </field>
+            <next>
+              <block type="field_input" id="nmd[517t{z2Ewb04ikI;">
+                <field name="TEXT">3px</field>
+                <field name="FIELDNAME">NAME</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="/Ot)]HK%q)mAc`.0,bw#" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="IV-c331bZ?@tsEER=tY;" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="GUVvX0Jq9TuZx;*6D9n7"></shadow>
+      <block type="type_other" id="TK%n=h5:C%{jZ!?B9ev_">
+        <field name="TYPE">css</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="L}udLG~,PIQ}q7]aX{.W"></shadow>
+      <block type="type_other" id="vAqj#:,iKpvNzJQz}IQE">
+        <field name="TYPE">css</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="W}OK-*-Qq|OjY7Fh!w1r">
+        <mutation colour="#5b67a5"></mutation>
+        <field name="HUE">230</field>
+      </block>
+    </value>
+  </block><block type="factory_base" id="oc(@6Wh[+%#{yca6:iY4" deletable="false" movable="false" x="10" y="10">
+    <mutation connections="BOTH"></mutation>
+    <field name="NAME">global_style</field>
+    <field name="INLINE">AUTO</field>
+    <field name="CONNECTIONS">BOTH</field>
+    <statement name="INPUTS">
+      <block type="input_statement" id="B+=C/,@N`vB8g~a__0FG">
+        <field name="INPUTNAME">content</field>
+        <field name="ALIGN">LEFT</field>
+        <statement name="FIELDS">
+          <block type="field_static" id="m4$wB{x=`pS4Quz:`v4@">
+            <field name="TEXT">global_style</field>
+          </block>
+        </statement>
+        <value name="TYPE">
+          <shadow type="type_null" id="pwn}O_:c2xPysUbl,mEw"></shadow>
+          <block type="type_other" id="hQh:GJ9po}H(Z-_qoYON">
+            <field name="TYPE">html</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="TOOLTIP">
+      <block type="text" id="=hVgjN*Xq3.!}!:{IOr%" deletable="false" movable="false">
+        <field name="TEXT"></field>
+      </block>
+    </value>
+    <value name="HELPURL">
+      <block type="text" id="AJ`?5$m?ck+lgZ$.+e([" deletable="false" movable="false">
+        <field name="TEXT">http://www.w3schools.com/tags/tag_html.asp</field>
+      </block>
+    </value>
+    <value name="TOPTYPE">
+      <shadow type="type_null" id="b$]s!IzJX#kS7J``)8av"></shadow>
+      <block type="type_other" id="nXLC?I.dB{)DX3%w+,zl">
+        <field name="TYPE">header</field>
+      </block>
+    </value>
+    <value name="BOTTOMTYPE">
+      <shadow type="type_null" id="xHXffkIJH]!!`{iU}i3q"></shadow>
+      <block type="type_other" id="vAlG@`I4A{X[Q=%/iSC{">
+        <field name="TYPE">header</field>
+      </block>
+    </value>
+    <value name="COLOUR">
+      <block type="colour_hue" id="vb!qOkb@a$F?,#yW6_2H">
+        <mutation colour="#a55b5b"></mutation>
         <field name="HUE">0</field>
       </block>
     </value>

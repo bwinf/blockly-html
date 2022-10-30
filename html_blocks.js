@@ -102,6 +102,22 @@ var htmlBlocks =
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
 {
+  "type": "global_style",
+  "message0": "global_style %1",
+  "args0": [
+  {
+    "type": "input_statement",
+    "name": "content",
+    "check": "css"
+  }
+  ],
+  "previousStatement": "header",
+  "nextStatement": "header",
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
   "type": "paragraph",
   "message0": "paragraph %1",
   "args0": [
@@ -197,6 +213,38 @@ var htmlBlocks =
     "type": "field_colour",
     "name": "NAME",
     "colour": "#ff0000"
+  }
+  ],
+  "previousStatement": "css",
+  "nextStatement": "css",
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "margin",
+  "message0": "margin :  %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "NAME",
+    "text": "3px"
+  }
+  ],
+  "previousStatement": "css",
+  "nextStatement": "css",
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "padding",
+  "message0": "padding :  %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "NAME",
+    "text": "3px"
   }
   ],
   "previousStatement": "css",

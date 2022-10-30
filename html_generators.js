@@ -64,6 +64,18 @@ HtmlGenerator['title'] = function(block) {
   return code;
 };
 
+HtmlGenerator['global_style'] = function(block) {
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+
+  if (statements_content != "")
+    document.getElementById('style').innerText = 'html, body {' + statements_content + '}';
+  else
+    document.getElementById('style').innerText = "html, body {}";
+
+  var code = '<style> html, body {' + statements_content.trim() + '}</style>\n';
+  return code;
+};
+
 HtmlGenerator['paragraph'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
   var code = '<p>\n' + statements_content + '</p>\n';
@@ -98,6 +110,18 @@ HtmlGenerator['color'] = function(block) {
 HtmlGenerator['bgcolour'] = function(block) {
   var colour_name = block.getFieldValue('NAME');
   var code = 'background-color: ' + colour_name + ';';
+  return code;
+};
+
+HtmlGenerator['margin'] = function(block) {
+  var margin = block.getFieldValue('NAME');
+  var code = 'margin: ' + margin + ';';
+  return code;
+};
+
+HtmlGenerator['padding'] = function(block) {
+  var padding = block.getFieldValue('NAME');
+  var code = 'padding: ' + padding + ';';
   return code;
 };
 

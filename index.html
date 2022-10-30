@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>用拼圖拼出HTML網頁檔</title>
+    <style></style>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css" integrity="sha512-KXol4x3sVoO+8ZsWPFI/r5KBVB/ssCGB5tsv2nVOKwLg33wTFP3fmnXa47FdSVIshVTgsYk/1734xSk9aFIa4A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script
@@ -85,6 +86,7 @@
         </script>
       </div>
       <div id="title">untitled web page</div>
+      <div id="style" style="display: none;">html, body {}</div>
       <div id="websiteFrame"><iframe id="website"></iframe></div>
       <pre id="sourcecode">sum contnent</pre>
     </div>
@@ -100,6 +102,12 @@
                     <statement name="content">
                       <block type="plaintext">
                         <field name="content"></field>
+                      </block>
+                    </statement>
+                  </block>
+                  <block type="global_style">
+                    <statement name="content">
+                      <block type="style">
                       </block>
                     </statement>
                   </block>
@@ -121,6 +129,12 @@
               </block>
             </statement>
           </block>
+          <block type="global_style">
+            <statement name="content">
+              <block type="style">
+              </block>
+            </statement>
+          </block>
         </category>
         <category name="textstructure" colour="#5ba55b">
           <block type="plaintext">
@@ -138,6 +152,10 @@
           <block type="image">
             <field name="IMAGE">URL</field>
             <field name="ALT">alternative text</field>
+          </block>
+          <block type="genericattribute">
+            <field name="attribute">display</field>
+            <field name="value">block</field>
           </block>
           <block type="generictag">
             <field name="NAME">tag</field>
@@ -170,6 +188,12 @@
           </block>
           <block type="bgcolour">
             <field name="NAME">#ff0000</field>
+          </block>
+          <block type="margin">
+            <field name="NAME">3px</field>
+          </block>
+          <block type="padding">
+            <field name="NAME">3px</field>
           </block>
           <block type="genericstyle">
             <field name="property">property</field>
