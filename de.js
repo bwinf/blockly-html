@@ -58,6 +58,9 @@ Msg = {
       "tooltip": "",
       "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/title"
     },
+    "global_style": {
+      "message0": "Wähler %1 Stil %2",
+    },
     "paragraph": {
       "message0": "Absatz %1",
       "tooltip": "",
@@ -87,6 +90,14 @@ Msg = {
       "message0": "Hintergrundfarbe :  %1",
       "tooltip": "",
       "helpUrl": null
+    },
+    "margin": {
+      "message0": "Rand :  %1",
+      "helpUrl": ""
+    },
+    "padding": {
+      "message0": "Polsterung :  %1",
+      "helpUrl": ""
     },
     "genericstyle": {
       "message0": "%1 : %2",

@@ -1,4 +1,17 @@
 Msg = {
+  buttons: {
+    save: {
+      desc: "💾 存檔:",
+      button: "存檔",
+    },
+    load: {
+      desc: "📂 讀檔:",
+    },
+    export: {
+      desc: "📄 輸出為HTML:",
+      button: "輸出",
+    },
+  },
   categories: {
     "html": "HTML",
     "baseframe": "基本架構",
