@@ -189,8 +189,6 @@ Msg = {
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
-    ,
-
     "inserted": {
       "message0": "inserted at %1 %2",
       "tooltip": "",
