@@ -88,6 +88,18 @@ HtmlGenerator['plaintext'] = function(block) {
   return code;
 };
 
+HtmlGenerator['text_print'] = function(block) {
+  var text_content = block.getFieldValue('TEXT');
+  var code = text_content + '\n';
+  return code;
+};
+
+HtmlGenerator['text'] = function(block) {
+  var text_content = block.getFieldValue('TEXT');
+  var code = text_content + '\n';
+  return code;
+};
+
 HtmlGenerator['division'] = function(block) {
   var value_name = HtmlGenerator.valueToCode(block, 'NAME', HtmlGenerator.ORDER_ATOMIC);
   var statements_content = HtmlGenerator.statementToCode(block, 'content');

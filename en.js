@@ -55,7 +55,13 @@ Msg = {
       "message0": "paragraph %1",
     },
     "plaintext": {
-      "message0": "text %1",
+      "message0": "Text %1",
+    },
+    "text_print": {
+      "message0": "Text %1",
+    },
+    "text": {
+      "message0": "Text %1",
     },
     "division": {
       "message0": "division %1 %2",

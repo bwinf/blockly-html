@@ -60,6 +60,12 @@ Msg = {
     "plaintext": {
       "message0": "文字 %1",
     },
+    "text_print": {
+      "message0": "文字 %1",
+    },
+    "text": {
+      "message0": "文字 %1",
+    },
     "division": {
       "message0": "區塊 %1 %2"
     },

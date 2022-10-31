@@ -71,6 +71,12 @@ Msg = {
       "tooltip": "",
       "helpUrl": null
     },
+    "text_print": {
+      "message0": "Text %1",
+    },
+    "text": {
+      "message0": "Text %1",
+    },
     "division": {
       "message0": "Unterteilung %1 %2",
       "tooltip": "",
