@@ -26,7 +26,7 @@ A German localisation of the demo can be enabled by loading `de.js` instead of `
 
 ## Library files
 
-The files `library_html.xml` and `library_html_german.xml` are block libraries that can be used to modify the blocks using the Blockly developer tools: https://blockly-demo.appspot.com/static/demos/blockfactory/index.html
+The file `library_html.xml` is block library that can be used to modify the blocks using the Blockly developer tools: https://blockly-demo.appspot.com/static/demos/blockfactory/index.html
 
 ## TODO
  * Support more HTML tags and attributes
