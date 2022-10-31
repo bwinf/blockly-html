@@ -155,8 +155,10 @@
             <field name="ALT">alternative text</field>
           </block>
           <block type="genericattribute">
-            <field name="attribute">display</field>
-            <field name="value">block</field>
+            <field name="attribute">class</field>
+            <field name="value">foo</field>
+          </block>
+          <block type="more_attributes">
           </block>
           <block type="generictag">
             <field name="NAME">tag</field>
@@ -183,6 +185,8 @@
             </value>
           </block>
           <block type="style"></block>
+          <block type="tag_selector"></block>
+          <block type="class_selector"></block>
           <block type="color">
             <field name="NAME">#ff0000</field>
           </block>
@@ -635,15 +639,20 @@
               <block type="title" id="rB[~}$}00N3;aP6]xnDB">
                 <statement name="content">
                   <block type="plaintext" id="CjhokkH)~`2F##tpTkVK">
-                    <field name="content">Blockly HTML</field>
+                    <field name="content">拼圖HTML</field>
                   </block>
                 </statement>
                 <next>
                   <block type="global_style" id="">
+                    <statement name="selector">
+                      <block type="tag_selector" id="">
+                        <field name="NAME">h1</field>
+                      </block>
+                    </statement>
                     <statement name="content">
                       <block type="genericstyle" id="">
                         <field name="property">color</field>
-                        <field name="value">black</field>
+                        <field name="value">blue</field>
                       </block>
                     </statement>
                   </block>
@@ -667,17 +676,17 @@
                     <field name="NAME">h1</field>
                     <statement name="content">
                       <block type="plaintext" id="y?9?JkK^68`6RoX9M|HK">
-                        <field name="content">Create web pages with Blockly</field>
+                        <field name="content">用拼圖做網頁</field>
                       </block>
                     </statement>
                     <next>
                       <block type="paragraph" id="`7GrdZ)-sMI$8U]X:FT{">
                         <statement name="content">
                           <block type="plaintext" id="t$+$tH1}{rq41re|0c*(">
-                            <field name="content">Just combine the building blocks on the left side</field>
+                            <field name="content">只要把左側的拼圖拼接起來</field>
                             <next>
                               <block type="plaintext" id="C]F#kLxHh]~_/W9dI[xM">
-                                <field name="content">and watch this page change accordingly.</field>
+                                <field name="content">就可以看到網頁的更動</field>
                               </block>
                             </next>
                           </block>
@@ -686,10 +695,10 @@
                           <block type="paragraph" id="dl,67cz~ME2iY-0u@WN2">
                             <statement name="content">
                               <block type="plaintext" id="2p+0sn,p3Ir+8[A+ub@+">
-                                <field name="content">On the bottom, you can also see the HTML</field>
+                                <field name="content">在右下方可以看到您創造的網頁</field>
                                 <next>
                                   <block type="plaintext" id="~q?}Zyz_#Z/)z{$C5:Eg">
-                                    <field name="content">source code of the page you are creating.</field>
+                                    <field name="content">HTML原始碼</field>
                                   </block>
                                 </next>
                               </block>

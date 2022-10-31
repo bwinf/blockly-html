@@ -103,13 +103,18 @@ var htmlBlocks =
 },
 {
   "type": "global_style",
-  "message0": "global_style %1",
+  "message0": "selector %1 style %2",
   "args0": [
-  {
-    "type": "input_statement",
-    "name": "content",
-    "check": "css"
-  }
+    {
+      "type": "input_statement",
+      "name": "selector",
+      "check": "selector"
+    },
+    {
+      "type": "input_statement",
+      "name": "content",
+      "check": "css"
+    }
   ],
   "previousStatement": "header",
   "nextStatement": "header",
@@ -271,6 +276,38 @@ var htmlBlocks =
   "previousStatement": "css",
   "nextStatement": "css",
   "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "tag_selector",
+  "message0": "tag %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "p"
+    }
+  ],
+  "previousStatement": "selector",
+  "nextStatement": "selector",
+  "colour": 60,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "class_selector",
+  "message0": "class %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "foo"
+    }
+  ],
+  "previousStatement": "selector",
+  "nextStatement": "selector",
+  "colour": 60,
   "tooltip": "",
   "helpUrl": ""
 },

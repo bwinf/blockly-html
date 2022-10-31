@@ -39,7 +39,7 @@ Msg = {
       "message0": "標題 %1",
     },
     "global_style": {
-      "message0": "全域樣式 %1",
+      "message0": "選擇 %1 樣式 %2",
     },
     "paragraph": {
       "message0": "段落 %1",
@@ -52,6 +52,16 @@ Msg = {
     },
     "style": {
       "message0": "樣式 =  %1 %2",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "tag_selector": {
+      "message0": "標記 %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "class_selector": {
+      "message0": "類別 %1",
       "tooltip": "",
       "helpUrl": ""
     },

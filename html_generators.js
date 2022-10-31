@@ -65,14 +65,14 @@ HtmlGenerator['title'] = function(block) {
 };
 
 HtmlGenerator['global_style'] = function(block) {
+  var statements_selector = HtmlGenerator.statementToCode(block, 'selector');
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
 
-  if (statements_content != "")
-    document.getElementById('style').innerText = 'html, body {' + statements_content + '}';
-  else
-    document.getElementById('style').innerText = "html, body {}";
+  if (statements_selector == "") {
+    statements_selector = 'html, body'
+  }
 
-  var code = '<style> html, body {' + statements_content.trim() + '}</style>\n';
+  var code = '<style> ' + statements_selector + ' {' + statements_content.trim() + '}</style>\n';
   return code;
 };
 
@@ -129,6 +129,18 @@ HtmlGenerator['genericstyle'] = function(block) {
   var text_property = block.getFieldValue('property');
   var text_value = block.getFieldValue('value');
   var code = text_property + ': ' + text_value + ';';
+  return code;
+};
+
+HtmlGenerator['tag_selector'] = function(block) {
+  var tag = block.getFieldValue('NAME');
+  var code = tag;
+  return code;
+};
+
+HtmlGenerator['class_selector'] = function(block) {
+  var c = block.getFieldValue('NAME');
+  var code = '.' + c;
   return code;
 };
 
