@@ -78,6 +78,16 @@ Msg = {
       "tooltip": "",
       "helpUrl": null
     },
+    "tag_selector": {
+      "message0": "Schild %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "class_selector": {
+      "message0": "Klasse %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
     "color": {
       "message0": "Textfarbe :  %1",
       "tooltip": "",
