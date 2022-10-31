@@ -7,11 +7,11 @@ Blockly blocks and generators for HTML generation and a demo with live preview.
 Blockly-Blöcke und -Generatoren zur HTML-Generierung und eine Demo mit Live-Vorschau.
 
 
-中文的試用版可以在這裡看到: https://bestian.github.io/blockly-html/demo_zh-hant.html
+中文的試用版可以在這裡看到: https://bwinf.github.io/blockly-html/demo_zh-hant.html
 
-The English demo can be tested here: https://bestian.github.io/blockly-html/demo_en.html
+The English demo can be tested here: https://bwinf.github.io/blockly-html/demo_en.html
 
-Eine deutsche Demo ist ebenfalls verfügbar: https://bestian.github.io/blockly-html/demo_de.html
+Eine deutsche Demo ist ebenfalls verfügbar: https://bwinf.github.io/blockly-html/demo_de.html
 
 
 <img src="screenshot.png" width="500" alt="Screenshot" />
@@ -68,4 +68,4 @@ Die Datei „library_html.xml“ ist eine Blockbibliothek, die verwendet werden 
 
 ## 錯誤回報與功能請求 / BUG Report & Feature requset / Fehlerbericht & Funktionsanforderung
 
-Please send to https://github.com/bestian/blockly-html/issues 
+Please send to https://github.com/bwinf/blockly-html/issues 
