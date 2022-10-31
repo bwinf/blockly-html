@@ -64,6 +64,18 @@ HtmlGenerator['title'] = function(block) {
   return code;
 };
 
+HtmlGenerator['global_style'] = function(block) {
+  var statements_selector = HtmlGenerator.statementToCode(block, 'selector');
+  var statements_content = HtmlGenerator.statementToCode(block, 'content');
+
+  if (statements_selector == "") {
+    statements_selector = 'html, body'
+  }
+
+  var code = '<style> ' + statements_selector + ' {' + statements_content.trim() + '}</style>\n';
+  return code;
+};
+
 HtmlGenerator['paragraph'] = function(block) {
   var statements_content = HtmlGenerator.statementToCode(block, 'content');
   var code = '<p>\n' + statements_content + '</p>\n';
@@ -72,6 +84,18 @@ HtmlGenerator['paragraph'] = function(block) {
 
 HtmlGenerator['plaintext'] = function(block) {
   var text_content = block.getFieldValue('content');
+  var code = text_content + '\n';
+  return code;
+};
+
+HtmlGenerator['text_print'] = function(block) {
+  var text_content = block.getFieldValue('TEXT');
+  var code = text_content + '\n';
+  return code;
+};
+
+HtmlGenerator['text'] = function(block) {
+  var text_content = block.getFieldValue('TEXT');
   var code = text_content + '\n';
   return code;
 };
@@ -101,10 +125,34 @@ HtmlGenerator['bgcolour'] = function(block) {
   return code;
 };
 
+HtmlGenerator['margin'] = function(block) {
+  var margin = block.getFieldValue('NAME');
+  var code = 'margin: ' + margin + ';';
+  return code;
+};
+
+HtmlGenerator['padding'] = function(block) {
+  var padding = block.getFieldValue('NAME');
+  var code = 'padding: ' + padding + ';';
+  return code;
+};
+
 HtmlGenerator['genericstyle'] = function(block) {
   var text_property = block.getFieldValue('property');
   var text_value = block.getFieldValue('value');
   var code = text_property + ': ' + text_value + ';';
+  return code;
+};
+
+HtmlGenerator['tag_selector'] = function(block) {
+  var tag = block.getFieldValue('NAME');
+  var code = tag;
+  return code;
+};
+
+HtmlGenerator['class_selector'] = function(block) {
+  var c = block.getFieldValue('NAME');
+  var code = '.' + c;
   return code;
 };
 

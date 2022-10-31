@@ -102,6 +102,27 @@ var htmlBlocks =
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
 },
 {
+  "type": "global_style",
+  "message0": "selector %1 style %2",
+  "args0": [
+    {
+      "type": "input_statement",
+      "name": "selector",
+      "check": "selector"
+    },
+    {
+      "type": "input_statement",
+      "name": "content",
+      "check": "css"
+    }
+  ],
+  "previousStatement": "header",
+  "nextStatement": "header",
+  "colour": 0,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
   "type": "paragraph",
   "message0": "paragraph %1",
   "args0": [
@@ -124,6 +145,38 @@ var htmlBlocks =
   {
     "type": "field_input",
     "name": "content",
+    "text": ""
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 330,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "text_print",
+  "message0": "text %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "TEXT",
+    "text": ""
+  }
+  ],
+  "previousStatement": null,
+  "nextStatement": null,
+  "colour": 330,
+  "tooltip": "",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+},
+{
+  "type": "text",
+  "message0": "text %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "TEXT",
     "text": ""
   }
   ],
@@ -206,6 +259,38 @@ var htmlBlocks =
   "helpUrl": ""
 },
 {
+  "type": "margin",
+  "message0": "margin :  %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "NAME",
+    "text": "3px"
+  }
+  ],
+  "previousStatement": "css",
+  "nextStatement": "css",
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "padding",
+  "message0": "padding :  %1",
+  "args0": [
+  {
+    "type": "field_input",
+    "name": "NAME",
+    "text": "3px"
+  }
+  ],
+  "previousStatement": "css",
+  "nextStatement": "css",
+  "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
   "type": "genericstyle",
   "message0": "%1 : %2",
   "args0": [
@@ -223,6 +308,38 @@ var htmlBlocks =
   "previousStatement": "css",
   "nextStatement": "css",
   "colour": 230,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "tag_selector",
+  "message0": "tag %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "p"
+    }
+  ],
+  "previousStatement": "selector",
+  "nextStatement": "selector",
+  "colour": 60,
+  "tooltip": "",
+  "helpUrl": ""
+},
+{
+  "type": "class_selector",
+  "message0": "class %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "NAME",
+      "text": "foo"
+    }
+  ],
+  "previousStatement": "selector",
+  "nextStatement": "selector",
+  "colour": 60,
   "tooltip": "",
   "helpUrl": ""
 },

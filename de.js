@@ -58,6 +58,9 @@ Msg = {
       "tooltip": "",
       "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/title"
     },
+    "global_style": {
+      "message0": "Wähler %1 Stil %2",
+    },
     "paragraph": {
       "message0": "Absatz %1",
       "tooltip": "",
@@ -67,6 +70,12 @@ Msg = {
       "message0": "Text: %1",
       "tooltip": "",
       "helpUrl": null
+    },
+    "text_print": {
+      "message0": "Text %1",
+    },
+    "text": {
+      "message0": "Text %1",
     },
     "division": {
       "message0": "Unterteilung %1 %2",
@@ -78,6 +87,16 @@ Msg = {
       "tooltip": "",
       "helpUrl": null
     },
+    "tag_selector": {
+      "message0": "Schild %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "class_selector": {
+      "message0": "Klasse %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
     "color": {
       "message0": "Textfarbe :  %1",
       "tooltip": "",
@@ -87,6 +106,14 @@ Msg = {
       "message0": "Hintergrundfarbe :  %1",
       "tooltip": "",
       "helpUrl": null
+    },
+    "margin": {
+      "message0": "Rand :  %1",
+      "helpUrl": ""
+    },
+    "padding": {
+      "message0": "Polsterung :  %1",
+      "helpUrl": ""
     },
     "genericstyle": {
       "message0": "%1 : %2",

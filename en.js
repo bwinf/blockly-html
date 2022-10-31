@@ -1,4 +1,17 @@
 Msg = {
+  buttons: {
+    save: {
+      desc: "💾 Save Blocks:",
+      button: "Save",
+    },
+    load: {
+      desc: "📂 Load:",
+    },
+    export: {
+      desc: "📄 Export to HTML:",
+      button: "Export",
+    },
+  },
   categories: {
     "html": "HTML",
     "baseframe": "Base frame",
@@ -35,17 +48,36 @@ Msg = {
     "title": {
       "message0": "title %1",
     },
+    "global_style": {
+      "message0": "selector %1 style %2",
+    },
     "paragraph": {
       "message0": "paragraph %1",
     },
     "plaintext": {
-      "message0": "text %1",
+      "message0": "Text %1",
+    },
+    "text_print": {
+      "message0": "Text %1",
+    },
+    "text": {
+      "message0": "Text %1",
     },
     "division": {
       "message0": "division %1 %2",
     },
     "style": {
       "message0": "style =  %1 %2",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "tag_selector": {
+      "message0": "tag %1",
+      "tooltip": "",
+      "helpUrl": ""
+    },
+    "class_selector": {
+      "message0": "class %1",
       "tooltip": "",
       "helpUrl": ""
     },
@@ -56,6 +88,14 @@ Msg = {
     },
     "bgcolour": {
       "message0": "background colour :  %1",
+      "helpUrl": ""
+    },
+    "margin": {
+      "message0": "margin :  %1",
+      "helpUrl": ""
+    },
+    "padding": {
+      "message0": "padding :  %1",
       "helpUrl": ""
     },
     "genericstyle": {
@@ -155,6 +195,131 @@ Msg = {
       "tooltip": "",
       "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
     },
+    "inserted": {
+      "message0": "inserted at %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/ins"
+    },
+
+    "deleted": {
+      "message0": "deleted %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/del"
+    },
+
+    "super": {
+      "message0": "super %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/sup"
+    },
+
+    "sub": {
+      "message0": "sub %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/sub"
+    },
+
+    "code": {
+      "message0": "code %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/code"
+    },
+
+    "quote": {
+      "message0": "quote %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/q"
+    },
+
+    "blockquote": {
+      "message0": "blockquote %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/blockquote"
+    },
+
+    "sample": {
+      "message0": "sample %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/samp"
+    },
+
+    "keyboard": {
+      "message0": "keyboard %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/kbd"
+    },
+
+    "variable": {
+      "message0": "variable %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/var"
+    },
+
+    "form": {
+      "message0": "form %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/form"
+    },
+
+    "table": {
+      "message0": "table %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/table"
+    },
+
+    "tablerow": {
+      "message0": "row %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/tr"
+    },
+
+    "tablecell": {
+      "message0": "cell %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/td"
+    },
+
+    "input_text": {
+      "message0": "input text %1",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/input"
+    },
+
+    "button": {
+      "message0": "button %1 %2",
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/button"
+    },
+
+    "input": {
+      "message0": "%1 input %2 %3",
+      "args0": [{ "options": [
+        ["Text", "text"],
+        ["E-Mail", "email"],
+        ["Number", "number"],
+        ["Password", "password"],
+        ["Checkbox", "checkbox"],
+        ["Radio", "radio"],
+        ["Button", "button"],
+        ["Color", "color"],
+        ["Date", "date"],
+        ["DateTime-Local", "datetime-local"],
+        ["File", "file"],
+        ["Hidden", "hidden"],
+        ["Image", "image"],
+        ["Month", "month"],
+        ["Range", "range"],
+        ["Reset", "reset"],
+        ["Search", "search"],
+        ["Submit", "submit"],
+        ["Telephone Number", "tel"],
+        ["Time", "time"],
+        ["URK", "url"],
+        ["Week", "week"]]
+      }],
+      "tooltip": "",
+      "helpUrl": "https://wiki.selfhtml.org/wiki/Referenz:HTML/input"
+    }
   }
 }
 
